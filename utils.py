@@ -12,6 +12,8 @@ def is_english(text):
     
 def clean_lyrics(raw_lyrics):
     raw_lyrics = raw_lyrics.split("Lyrics", 1)[-1]
+    if "Read More" in raw_lyrics:
+        raw_lyrics = raw_lyrics.split("Read More", 1)[-1]
     raw_lyrics = re.sub(r"^[^\n]*Contributors[^\n]*\n", "", raw_lyrics, flags=re.MULTILINE)
     raw_lyrics = re.sub(r"\[.*?\]", "", raw_lyrics)
     raw_lyrics = re.sub(r"\n{2,}", "\n", raw_lyrics)
