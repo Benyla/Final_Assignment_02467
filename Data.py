@@ -13,8 +13,8 @@ from tqdm import tqdm
 # Set up API Credentials
 # ------------------------------
 
-SPOTIFY_CLIENT_ID = "1e9f17fbe8f84b3ebabe5d48603e6ffc"
-SPOTIFY_CLIENT_SECRET = "6f33b108987544418206cb70fd94d403"
+SPOTIFY_CLIENT_ID = "695cb4867ecd4f4fbbafa14cfba58fec"
+SPOTIFY_CLIENT_SECRET = "e1626972052b48df90527dfc30c31d66"
 GENIUS_ACCESS_TOKEN = "tRFnVnQJ2Ltli7ANNbqLg3I_Ir2NX7TX_iS6L7ufNGWFldulVJjGOmYiVb5w_EDl"
 
 # ------------------------------
