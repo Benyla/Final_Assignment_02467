@@ -3,7 +3,6 @@ top_pop_artists = [
     "Dua Lipa",
     "Olivia Rodrigo",
     "The Weeknd",
-    "SZA",
     "Doja Cat",
     "Ariana Grande",
     "Billie Eilish",
