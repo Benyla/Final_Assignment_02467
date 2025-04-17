@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artist Collaboration Network</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --clr-bg: #f5f7fa;
+      --clr-primary: #3366ff;
+      --clr-secondary: #ff3366;
+      --clr-text: #333;
+      --font-sans: 'Inter', sans-serif;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: var(--font-sans);
+      background: var(--clr-bg);
+      color: var(--clr-text);
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+    header {
+      position: relative;
+      height: 60vh;
+      background: url('assets/placeholder-bg.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    header::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    header h1 {
+      position: relative;
+      font-size: 3rem;
+      color: #fff;
+      z-index:1;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      animation: fadeInDown 1s ease-out;
+    }
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 2rem 1rem;
+    }
+    section {
+      margin: 4rem 0;
+    }
+    .facts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      gap: 2rem;
+    }
+    .fact-card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    .fact-card:hover {
+      transform: translateY(-5px);
+    }
+    .fact-card h3 {
+      font-size: 2rem;
+      color: var(--clr-primary);
+      margin-bottom: 0.5rem;
+    }
+    .fact-card p {
+      font-size: 1rem;
+      color: var(--clr-text);
+    }
+    #graph {
+      position: relative;
+      height: 0;
+      padding-top: 56.25%; /* 16:9 aspect */
+      overflow: hidden;
+    }
+    #graph video {
+      position: absolute;
+      top:0; left:0;
+      width:100%; height:100%;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 0;
+      font-size: 0.875rem;
+      color: #666;
+    }
+    @keyframes fadeInDown {
+      from { opacity:0; transform: translateY(-20px); }
+      to   { opacity:1; transform: translateY(0); }
+    }
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+    .reveal.active {
+      opacity:1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Artist Collaboration Network</h1>
+  </header>
+
+  <main>
+    <section id="data" class="reveal">
+      <h2>About the Data</h2>
+      <div class="facts">
+        <div class="fact-card">
+          <h3>1,234</h3>
+          <p>Unique Artists</p>
+        </div>
+        <div class="fact-card">
+          <h3>5,678</h3>
+          <p>Collaborations</p>
+        </div>
+        <div class="fact-card">
+          <h3>3.4M</h3>
+          <p>Avg Popularity Score</p>
+        </div>
+        <div class="fact-card">
+          <h3>2005</h3>
+          <p>Earliest Release Year</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="graph" class="reveal">
+      <h2>Interactive 360° Graph</h2>
+      <video src="assets/graph_orbit.webm" autoplay loop muted playsinline></video>
+    </section>
+  </main>
+
+  <footer class="reveal">
+    &copy; 2025 Benyla. All rights reserved.
+  </footer>
+
+  <script>
+    // Simple scroll reveal
+    document.addEventListener('DOMContentLoaded', () => {
+      const reveals = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.2 });
+      reveals.forEach(el => observer.observe(el));
+    });
+  </script>
+</body>
+</html>
