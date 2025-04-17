@@ -13,9 +13,9 @@ import os
 # Set up API Credentials
 # ------------------------------
 
-SPOTIFY_CLIENT_ID = "695cb4867ecd4f4fbbafa14cfba58fec"
-SPOTIFY_CLIENT_SECRET = "e1626972052b48df90527dfc30c31d66"
-GENIUS_ACCESS_TOKEN = "tRFnVnQJ2Ltli7ANNbqLg3I_Ir2NX7TX_iS6L7ufNGWFldulVJjGOmYiVb5w_EDl"
+SPOTIFY_CLIENT_ID = "ID"
+SPOTIFY_CLIENT_SECRET = "SECRET"
+GENIUS_ACCESS_TOKEN = "TOKEN"
 
 # ------------------------------
 # Authenticate with Spotify & Genius
@@ -27,7 +27,7 @@ sp = spotipy.Spotify(auth_manager=auth_manager, requests_timeout=10, retries=3)
 genius = lyricsgenius.Genius(GENIUS_ACCESS_TOKEN, timeout=15, retries=3)
 
 # ------------------------------
-# Caching Setup
+# Caching Setup - to save data as we go in case of crash
 # ------------------------------
 
 cache_file = "spotify_genius_data.csv"
@@ -37,7 +37,6 @@ processed_artists = set()
 if os.path.exists(cache_file):
     df_cache = pd.read_csv(cache_file)
     data = df_cache.to_dict(orient="records")
-    # Assuming each record has a 'primary_artist' field.
     for row in data:
         processed_artists.add(row.get("primary_artist", "").lower())
 
@@ -46,6 +45,7 @@ if os.path.exists(cache_file):
 # ------------------------------
 
 for artist_name in tqdm(top_pop_artists, desc="Processing artists"):
+
     # Skip artist if already processed
     if artist_name.lower() in processed_artists:
         tqdm.write(f"Skipping {artist_name} (already processed).")
@@ -66,13 +66,13 @@ for artist_name in tqdm(top_pop_artists, desc="Processing artists"):
     # Process each track for this artist
     for track in tqdm(top_tracks, desc=f"Processing tracks for {artist_name}"):
         track_id = track['id']
-        # We call sp.track(track_id) to get full metadata (since top_tracks may be simplified)
         try:
             full_track = sp.track(track_id)
         except Exception as e:
             tqdm.write(f"Error fetching full track data for {track_id}: {e}")
             continue
 
+        ### meta data
         track_title = track['name']
         track_artists = [a['name'] for a in track['artists']]
         is_collaboration = len(track_artists) > 1
@@ -80,8 +80,9 @@ for artist_name in tqdm(top_pop_artists, desc="Processing artists"):
         album_info = full_track.get('album', {})
         release_date = album_info.get('release_date', 'Unknown')
         popularity = track.get('popularity', 0)
+        ###
 
-        lyrics = get_english_lyrics(track_title, artist_name, genius)
+        lyrics = get_english_lyrics(track_title, artist_name, genius) # get lyrics
         if lyrics is False:
             tqdm.write(f"Skipping {track_title} by {artist_name} due to missing lyrics.")
             continue
@@ -100,11 +101,7 @@ for artist_name in tqdm(top_pop_artists, desc="Processing artists"):
             "lyrics": lyrics
         })
 
-    # After processing an artist, update the cache file.
     df = pd.DataFrame(data)
     df.to_csv(cache_file, index=False)
     processed_artists.add(artist_name.lower())
     tqdm.write(f"Cached data for {artist_name}. Total tracks so far: {len(data)}")
-
-print("Data collection complete. Here's a preview:")
-print(pd.DataFrame(data).head())
