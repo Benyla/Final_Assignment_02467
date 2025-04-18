@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Artist Collaboration Network</title>
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -15,13 +14,38 @@
       --clr-text: #333;
       --font-sans: 'Inter', sans-serif;
     }
-    * { margin:0; padding:0; box-sizing:border-box; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
       font-family: var(--font-sans);
       background: var(--clr-bg);
       color: var(--clr-text);
       scroll-behavior: smooth;
       overflow-x: hidden;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      background: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--clr-text);
+      margin-left: 1rem;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: var(--clr-primary);
     }
     header {
       position: relative;
@@ -41,7 +65,7 @@
       position: relative;
       font-size: 3rem;
       color: #fff;
-      z-index:1;
+      z-index: 1;
       text-transform: uppercase;
       letter-spacing: 2px;
       animation: fadeInDown 1s ease-out;
@@ -56,14 +80,14 @@
     }
     .facts {
       display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 2rem;
     }
     .fact-card {
       background: #fff;
       padding: 1.5rem;
       border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
       text-align: center;
       transition: transform 0.3s;
     }
@@ -87,10 +111,12 @@
     }
     #graph video {
       position: absolute;
-      top:0; left:0;
-      width:100%; height:100%;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     }
     footer {
       text-align: center;
@@ -99,8 +125,14 @@
       color: #666;
     }
     @keyframes fadeInDown {
-      from { opacity:0; transform: translateY(-20px); }
-      to   { opacity:1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
     .reveal {
       opacity: 0;
@@ -108,12 +140,23 @@
       transition: opacity 0.6s ease-out, transform 0.6s ease-out;
     }
     .reveal.active {
-      opacity:1;
+      opacity: 1;
       transform: translateY(0);
     }
   </style>
 </head>
 <body>
+
+  <!-- Navigation -->
+  <nav>
+    <div><strong>Network Project</strong></div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="explainer_page.html">Explainer Notebook</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
   <header>
     <h1>Artist Collaboration Network</h1>
   </header>
@@ -123,16 +166,16 @@
       <h2>About the Data</h2>
       <div class="facts">
         <div class="fact-card">
-          <h3>1,234</h3>
+          <h3>418</h3>
           <p>Unique Artists</p>
         </div>
         <div class="fact-card">
-          <h3>5,678</h3>
+          <h3>696</h3>
           <p>Collaborations</p>
         </div>
         <div class="fact-card">
-          <h3>3.4M</h3>
-          <p>Avg Popularity Score</p>
+          <h3>4.54</h3>
+          <p>Average degree</p>
         </div>
         <div class="fact-card">
           <h3>2005</h3>
@@ -143,7 +186,7 @@
 
     <section id="graph" class="reveal">
       <h2>Interactive 360° Graph</h2>
-      <video src="assets/new.webm" autoplay loop muted playsinline></video>
+      <video src="assets/new_graph2.webm" autoplay loop muted playsinline></video>
     </section>
   </main>
 
