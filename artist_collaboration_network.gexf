@@ -1,0 +1,4058 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-05-06">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="display_name" type="string" />
+      <attribute id="1" title="total_popularity" type="double" />
+      <attribute id="2" title="first_release_year" type="long" />
+      <attribute id="3" title="num_collaborations" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Meghan Trainor" label="Meghan Trainor">
+        <attvalues>
+          <attvalue for="0" value="Meghan Trainor" />
+          <attvalue for="1" value="58.08" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="John Legend" label="John Legend">
+        <attvalues>
+          <attvalue for="0" value="John Legend" />
+          <attvalue for="1" value="72.66666666666667" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Teddy Swims" label="Teddy Swims">
+        <attvalues>
+          <attvalue for="0" value="Teddy Swims" />
+          <attvalue for="1" value="60.5" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="T-Pain" label="T-Pain">
+        <attvalues>
+          <attvalue for="0" value="T-Pain" />
+          <attvalue for="1" value="63.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="j.bird" label="j.bird">
+        <attvalues>
+          <attvalue for="0" value="j.bird" />
+          <attvalue for="1" value="61.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Forest Blakk" label="Forest Blakk">
+        <attvalues>
+          <attvalue for="0" value="Forest Blakk" />
+          <attvalue for="1" value="59.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Niecy Nash" label="Niecy Nash">
+        <attvalues>
+          <attvalue for="0" value="Niecy Nash" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Paul Russell" label="Paul Russell">
+        <attvalues>
+          <attvalue for="0" value="Paul Russell" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kelli Trainor" label="Kelli Trainor">
+        <attvalues>
+          <attvalue for="0" value="Kelli Trainor" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="The Pussycat Dolls" label="The Pussycat Dolls">
+        <attvalues>
+          <attvalue for="0" value="The Pussycat Dolls" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LunchMoney Lewis" label="LunchMoney Lewis">
+        <attvalues>
+          <attvalue for="0" value="LunchMoney Lewis" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Nicki Minaj" label="Nicki Minaj">
+        <attvalues>
+          <attvalue for="0" value="Nicki Minaj" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="32" />
+        </attvalues>
+      </node>
+      <node id="Jason Derulo" label="Jason Derulo">
+        <attvalues>
+          <attvalue for="0" value="Jason Derulo" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sam Fischer" label="Sam Fischer">
+        <attvalues>
+          <attvalue for="0" value="Sam Fischer" />
+          <attvalue for="1" value="48.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Paris Hilton" label="Paris Hilton">
+        <attvalues>
+          <attvalue for="0" value="Paris Hilton" />
+          <attvalue for="1" value="47.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Shy Carter" label="Shy Carter">
+        <attvalues>
+          <attvalue for="0" value="Shy Carter" />
+          <attvalue for="1" value="45.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jonas Brothers" label="Jonas Brothers">
+        <attvalues>
+          <attvalue for="0" value="Jonas Brothers" />
+          <attvalue for="1" value="58.37777777777778" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Marshmello" label="Marshmello">
+        <attvalues>
+          <attvalue for="0" value="Marshmello" />
+          <attvalue for="1" value="70.33333333333333" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Rascal Flatts" label="Rascal Flatts">
+        <attvalues>
+          <attvalue for="0" value="Rascal Flatts" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bailey Zimmerman" label="Bailey Zimmerman">
+        <attvalues>
+          <attvalue for="0" value="Bailey Zimmerman" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="TOMORROW X TOGETHER" label="TOMORROW X TOGETHER">
+        <attvalues>
+          <attvalue for="0" value="TOMORROW X TOGETHER" />
+          <attvalue for="1" value="61.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Miley Cyrus" label="Miley Cyrus">
+        <attvalues>
+          <attvalue for="0" value="Miley Cyrus" />
+          <attvalue for="1" value="65.72" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="Noah Kahan" label="Noah Kahan">
+        <attvalues>
+          <attvalue for="0" value="Noah Kahan" />
+          <attvalue for="1" value="71.21621621621621" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Zach Bryan" label="Zach Bryan">
+        <attvalues>
+          <attvalue for="0" value="Zach Bryan" />
+          <attvalue for="1" value="78.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Julia Michaels" label="Julia Michaels">
+        <attvalues>
+          <attvalue for="0" value="Julia Michaels" />
+          <attvalue for="1" value="67.5" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Wesley Schultz" label="Wesley Schultz">
+        <attvalues>
+          <attvalue for="0" value="Wesley Schultz" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Joy Oladokun" label="Joy Oladokun">
+        <attvalues>
+          <attvalue for="0" value="Joy Oladokun" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mimi Webb" label="Mimi Webb">
+        <attvalues>
+          <attvalue for="0" value="Mimi Webb" />
+          <attvalue for="1" value="40.02857142857143" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="Katy Perry" label="Katy Perry">
+        <attvalues>
+          <attvalue for="0" value="Katy Perry" />
+          <attvalue for="1" value="67.22448979591837" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="Juicy J" label="Juicy J">
+        <attvalues>
+          <attvalue for="0" value="Juicy J" />
+          <attvalue for="1" value="79.5" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Snoop Dogg" label="Snoop Dogg">
+        <attvalues>
+          <attvalue for="0" value="Snoop Dogg" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Migos" label="Migos">
+        <attvalues>
+          <attvalue for="0" value="Migos" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Skip Marley" label="Skip Marley">
+        <attvalues>
+          <attvalue for="0" value="Skip Marley" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Doechii" label="Doechii">
+        <attvalues>
+          <attvalue for="0" value="Doechii" />
+          <attvalue for="1" value="62.333333333333336" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Kanye West" label="Kanye West">
+        <attvalues>
+          <attvalue for="0" value="Kanye West" />
+          <attvalue for="1" value="71.33333333333333" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Kim Petras" label="Kim Petras">
+        <attvalues>
+          <attvalue for="0" value="Kim Petras" />
+          <attvalue for="1" value="65.5" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="All Artist Adella" label="All Artist Adella">
+        <attvalues>
+          <attvalue for="0" value="All Artist Adella" />
+          <attvalue for="1" value="3.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="ROSÉ" label="ROSÉ">
+        <attvalues>
+          <attvalue for="0" value="ROSÉ" />
+          <attvalue for="1" value="96.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bruno Mars" label="Bruno Mars">
+        <attvalues>
+          <attvalue for="0" value="Bruno Mars" />
+          <attvalue for="1" value="71.70833333333333" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="30" />
+        </attvalues>
+      </node>
+      <node id="Sexyy Red" label="Sexyy Red">
+        <attvalues>
+          <attvalue for="0" value="Sexyy Red" />
+          <attvalue for="1" value="74.33333333333333" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Cardi B" label="Cardi B">
+        <attvalues>
+          <attvalue for="0" value="Cardi B" />
+          <attvalue for="1" value="76.5" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Gucci Mane" label="Gucci Mane">
+        <attvalues>
+          <attvalue for="0" value="Gucci Mane" />
+          <attvalue for="1" value="75.33333333333333" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Kodak Black" label="Kodak Black">
+        <attvalues>
+          <attvalue for="0" value="Kodak Black" />
+          <attvalue for="1" value="74.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Anderson .Paak" label="Anderson .Paak">
+        <attvalues>
+          <attvalue for="0" value="Anderson .Paak" />
+          <attvalue for="1" value="62.77777777777778" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="Silk Sonic" label="Silk Sonic">
+        <attvalues>
+          <attvalue for="0" value="Silk Sonic" />
+          <attvalue for="1" value="62.77777777777778" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="18" />
+        </attvalues>
+      </node>
+      <node id="Lady Gaga" label="Lady Gaga">
+        <attvalues>
+          <attvalue for="0" value="Lady Gaga" />
+          <attvalue for="1" value="75.87755102040816" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="Alan Walker" label="Alan Walker">
+        <attvalues>
+          <attvalue for="0" value="Alan Walker" />
+          <attvalue for="1" value="64.75" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Damian Marley" label="Damian Marley">
+        <attvalues>
+          <attvalue for="0" value="Damian Marley" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="R3HAB" label="R3HAB">
+        <attvalues>
+          <attvalue for="0" value="R3HAB" />
+          <attvalue for="1" value="48.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Lewis Capaldi" label="Lewis Capaldi">
+        <attvalues>
+          <attvalue for="0" value="Lewis Capaldi" />
+          <attvalue for="1" value="60.31111111111111" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Jessie Reyez" label="Jessie Reyez">
+        <attvalues>
+          <attvalue for="0" value="Jessie Reyez" />
+          <attvalue for="1" value="59.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Future Humans" label="Future Humans">
+        <attvalues>
+          <attvalue for="0" value="Future Humans" />
+          <attvalue for="1" value="59.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Steve Void" label="Steve Void">
+        <attvalues>
+          <attvalue for="0" value="Steve Void" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Madism" label="Madism">
+        <attvalues>
+          <attvalue for="0" value="Madism" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Taylor Swift" label="Taylor Swift">
+        <attvalues>
+          <attvalue for="0" value="Taylor Swift" />
+          <attvalue for="1" value="79.22" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Post Malone" label="Post Malone">
+        <attvalues>
+          <attvalue for="0" value="Post Malone" />
+          <attvalue for="1" value="74.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Bon Iver" label="Bon Iver">
+        <attvalues>
+          <attvalue for="0" value="Bon Iver" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Dua Lipa" label="Dua Lipa">
+        <attvalues>
+          <attvalue for="0" value="Dua Lipa" />
+          <attvalue for="1" value="65.87755102040816" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="21" />
+        </attvalues>
+      </node>
+      <node id="DaBaby" label="DaBaby">
+        <attvalues>
+          <attvalue for="0" value="DaBaby" />
+          <attvalue for="1" value="76.5" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Elton John" label="Elton John">
+        <attvalues>
+          <attvalue for="0" value="Elton John" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="PNAU" label="PNAU">
+        <attvalues>
+          <attvalue for="0" value="PNAU" />
+          <attvalue for="1" value="57.666666666666664" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Troye Sivan" label="Troye Sivan">
+        <attvalues>
+          <attvalue for="0" value="Troye Sivan" />
+          <attvalue for="1" value="57.729166666666664" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="JENNIE" label="JENNIE">
+        <attvalues>
+          <attvalue for="0" value="JENNIE" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="BLACKPINK" label="BLACKPINK">
+        <attvalues>
+          <attvalue for="0" value="BLACKPINK" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Pierre de Maere" label="Pierre de Maere">
+        <attvalues>
+          <attvalue for="0" value="Pierre de Maere" />
+          <attvalue for="1" value="70.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Megan Thee Stallion" label="Megan Thee Stallion">
+        <attvalues>
+          <attvalue for="0" value="Megan Thee Stallion" />
+          <attvalue for="1" value="70.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Angèle" label="Angèle">
+        <attvalues>
+          <attvalue for="0" value="Angèle" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Adam Port" label="Adam Port">
+        <attvalues>
+          <attvalue for="0" value="Adam Port" />
+          <attvalue for="1" value="71.5" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Chris Stapleton" label="Chris Stapleton">
+        <attvalues>
+          <attvalue for="0" value="Chris Stapleton" />
+          <attvalue for="1" value="63.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Imanbek" label="Imanbek">
+        <attvalues>
+          <attvalue for="0" value="Imanbek" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Claptone" label="Claptone">
+        <attvalues>
+          <attvalue for="0" value="Claptone" />
+          <attvalue for="1" value="56.5" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="PS1" label="PS1">
+        <attvalues>
+          <attvalue for="0" value="PS1" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Miguel" label="Miguel">
+        <attvalues>
+          <attvalue for="0" value="Miguel" />
+          <attvalue for="1" value="54.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Olivia Rodrigo" label="Olivia Rodrigo">
+        <attvalues>
+          <attvalue for="0" value="Olivia Rodrigo" />
+          <attvalue for="1" value="75.3" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="The Weeknd" label="The Weeknd">
+        <attvalues>
+          <attvalue for="0" value="The Weeknd" />
+          <attvalue for="1" value="79.53061224489795" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="17" />
+        </attvalues>
+      </node>
+      <node id="Playboi Carti" label="Playboi Carti">
+        <attvalues>
+          <attvalue for="0" value="Playboi Carti" />
+          <attvalue for="1" value="75.66666666666667" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Daft Punk" label="Daft Punk">
+        <attvalues>
+          <attvalue for="0" value="Daft Punk" />
+          <attvalue for="1" value="84.5" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Anitta" label="Anitta">
+        <attvalues>
+          <attvalue for="0" value="Anitta" />
+          <attvalue for="1" value="88.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Gesaffelstein" label="Gesaffelstein">
+        <attvalues>
+          <attvalue for="0" value="Gesaffelstein" />
+          <attvalue for="1" value="83.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Lana Del Rey" label="Lana Del Rey">
+        <attvalues>
+          <attvalue for="0" value="Lana Del Rey" />
+          <attvalue for="1" value="74.80392156862744" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="Travis Scott" label="Travis Scott">
+        <attvalues>
+          <attvalue for="0" value="Travis Scott" />
+          <attvalue for="1" value="69.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Florence + The Machine" label="Florence + The Machine">
+        <attvalues>
+          <attvalue for="0" value="Florence + The Machine" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Justice" label="Justice">
+        <attvalues>
+          <attvalue for="0" value="Justice" />
+          <attvalue for="1" value="78.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Future" label="Future">
+        <attvalues>
+          <attvalue for="0" value="Future" />
+          <attvalue for="1" value="77.5" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ariana Grande" label="Ariana Grande">
+        <attvalues>
+          <attvalue for="0" value="Ariana Grande" />
+          <attvalue for="1" value="77.74" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="22" />
+        </attvalues>
+      </node>
+      <node id="Kendrick Lamar" label="Kendrick Lamar">
+        <attvalues>
+          <attvalue for="0" value="Kendrick Lamar" />
+          <attvalue for="1" value="69.5" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Giorgio Moroder" label="Giorgio Moroder">
+        <attvalues>
+          <attvalue for="0" value="Giorgio Moroder" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LISA" label="LISA">
+        <attvalues>
+          <attvalue for="0" value="LISA" />
+          <attvalue for="1" value="86.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Doja Cat" label="Doja Cat">
+        <attvalues>
+          <attvalue for="0" value="Doja Cat" />
+          <attvalue for="1" value="68.38" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="20" />
+        </attvalues>
+      </node>
+      <node id="RAYE" label="RAYE">
+        <attvalues>
+          <attvalue for="0" value="RAYE" />
+          <attvalue for="1" value="56.458333333333336" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="36" />
+        </attvalues>
+      </node>
+      <node id="SZA" label="SZA">
+        <attvalues>
+          <attvalue for="0" value="SZA" />
+          <attvalue for="1" value="74.2" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Jack Harlow" label="Jack Harlow">
+        <attvalues>
+          <attvalue for="0" value="Jack Harlow" />
+          <attvalue for="1" value="82.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Konshens" label="Konshens">
+        <attvalues>
+          <attvalue for="0" value="Konshens" />
+          <attvalue for="1" value="77.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rico Nasty" label="Rico Nasty">
+        <attvalues>
+          <attvalue for="0" value="Rico Nasty" />
+          <attvalue for="1" value="74.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Tyga" label="Tyga">
+        <attvalues>
+          <attvalue for="0" value="Tyga" />
+          <attvalue for="1" value="63.333333333333336" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Saweetie" label="Saweetie">
+        <attvalues>
+          <attvalue for="0" value="Saweetie" />
+          <attvalue for="1" value="68.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Smino" label="Smino">
+        <attvalues>
+          <attvalue for="0" value="Smino" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="JID" label="JID">
+        <attvalues>
+          <attvalue for="0" value="JID" />
+          <attvalue for="1" value="61.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="21 Savage" label="21 Savage">
+        <attvalues>
+          <attvalue for="0" value="21 Savage" />
+          <attvalue for="1" value="74.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Zedd" label="Zedd">
+        <attvalues>
+          <attvalue for="0" value="Zedd" />
+          <attvalue for="1" value="70.0" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Justin Bieber" label="Justin Bieber">
+        <attvalues>
+          <attvalue for="0" value="Justin Bieber" />
+          <attvalue for="1" value="74.18367346938776" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="24" />
+        </attvalues>
+      </node>
+      <node id="Cynthia Erivo" label="Cynthia Erivo">
+        <attvalues>
+          <attvalue for="0" value="Cynthia Erivo" />
+          <attvalue for="1" value="77.5" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="7" />
+        </attvalues>
+      </node>
+      <node id="Iggy Azalea" label="Iggy Azalea">
+        <attvalues>
+          <attvalue for="0" value="Iggy Azalea" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Wicked Movie Cast" label="Wicked Movie Cast">
+        <attvalues>
+          <attvalue for="0" value="Wicked Movie Cast" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Andy Nyman" label="Andy Nyman">
+        <attvalues>
+          <attvalue for="0" value="Andy Nyman" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Courtney-Mae Briggs" label="Courtney-Mae Briggs">
+        <attvalues>
+          <attvalue for="0" value="Courtney-Mae Briggs" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Jeff Goldblum" label="Jeff Goldblum">
+        <attvalues>
+          <attvalue for="0" value="Jeff Goldblum" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Sharon D. Clarke" label="Sharon D. Clarke">
+        <attvalues>
+          <attvalue for="0" value="Sharon D. Clarke" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Jenna Boyd" label="Jenna Boyd">
+        <attvalues>
+          <attvalue for="0" value="Jenna Boyd" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Michelle Yeoh" label="Michelle Yeoh">
+        <attvalues>
+          <attvalue for="0" value="Michelle Yeoh" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jonathan Bailey" label="Jonathan Bailey">
+        <attvalues>
+          <attvalue for="0" value="Jonathan Bailey" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Ethan Slater" label="Ethan Slater">
+        <attvalues>
+          <attvalue for="0" value="Ethan Slater" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Marissa Bode" label="Marissa Bode">
+        <attvalues>
+          <attvalue for="0" value="Marissa Bode" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Nonna" label="Nonna">
+        <attvalues>
+          <attvalue for="0" value="Nonna" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Billie Eilish" label="Billie Eilish">
+        <attvalues>
+          <attvalue for="0" value="Billie Eilish" />
+          <attvalue for="1" value="79.81632653061224" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Charli xcx" label="Charli xcx">
+        <attvalues>
+          <attvalue for="0" value="Charli xcx" />
+          <attvalue for="1" value="65.33333333333333" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="20" />
+        </attvalues>
+      </node>
+      <node id="Ed Sheeran" label="Ed Sheeran">
+        <attvalues>
+          <attvalue for="0" value="Ed Sheeran" />
+          <attvalue for="1" value="70.91836734693878" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="Camila Cabello" label="Camila Cabello">
+        <attvalues>
+          <attvalue for="0" value="Camila Cabello" />
+          <attvalue for="1" value="61.97959183673469" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="35" />
+        </attvalues>
+      </node>
+      <node id="Khalid" label="Khalid">
+        <attvalues>
+          <attvalue for="0" value="Khalid" />
+          <attvalue for="1" value="63.666666666666664" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Luke Combs" label="Luke Combs">
+        <attvalues>
+          <attvalue for="0" value="Luke Combs" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Stormzy" label="Stormzy">
+        <attvalues>
+          <attvalue for="0" value="Stormzy" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Chance the Rapper" label="Chance the Rapper">
+        <attvalues>
+          <attvalue for="0" value="Chance the Rapper" />
+          <attvalue for="1" value="71.0" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="PnB Rock" label="PnB Rock">
+        <attvalues>
+          <attvalue for="0" value="PnB Rock" />
+          <attvalue for="1" value="61.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Drake" label="Drake">
+        <attvalues>
+          <attvalue for="0" value="Drake" />
+          <attvalue for="1" value="77.52727272727273" />
+          <attvalue for="2" value="2009" />
+          <attvalue for="3" value="42" />
+        </attvalues>
+      </node>
+      <node id="PARTYNEXTDOOR" label="PARTYNEXTDOOR">
+        <attvalues>
+          <attvalue for="0" value="PARTYNEXTDOOR" />
+          <attvalue for="1" value="81.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="Yebba" label="Yebba">
+        <attvalues>
+          <attvalue for="0" value="Yebba" />
+          <attvalue for="1" value="76.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Wizkid" label="Wizkid">
+        <attvalues>
+          <attvalue for="0" value="Wizkid" />
+          <attvalue for="1" value="88.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Kyla" label="Kyla">
+        <attvalues>
+          <attvalue for="0" value="Kyla" />
+          <attvalue for="1" value="88.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Chris Brown" label="Chris Brown">
+        <attvalues>
+          <attvalue for="0" value="Chris Brown" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="GIVĒON" label="GIVĒON">
+        <attvalues>
+          <attvalue for="0" value="GIVĒON" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Rihanna" label="Rihanna">
+        <attvalues>
+          <attvalue for="0" value="Rihanna" />
+          <attvalue for="1" value="75.25" />
+          <attvalue for="2" value="2005" />
+          <attvalue for="3" value="17" />
+        </attvalues>
+      </node>
+      <node id="Pimmie" label="Pimmie">
+        <attvalues>
+          <attvalue for="0" value="Pimmie" />
+          <attvalue for="1" value="78.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Yeat" label="Yeat">
+        <attvalues>
+          <attvalue for="0" value="Yeat" />
+          <attvalue for="1" value="78.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Majid Jordan" label="Majid Jordan">
+        <attvalues>
+          <attvalue for="0" value="Majid Jordan" />
+          <attvalue for="1" value="77.0" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lil Durk" label="Lil Durk">
+        <attvalues>
+          <attvalue for="0" value="Lil Durk" />
+          <attvalue for="1" value="77.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lil Baby" label="Lil Baby">
+        <attvalues>
+          <attvalue for="0" value="Lil Baby" />
+          <attvalue for="1" value="77.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="J. Cole" label="J. Cole">
+        <attvalues>
+          <attvalue for="0" value="J. Cole" />
+          <attvalue for="1" value="66.5" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Lil Wayne" label="Lil Wayne">
+        <attvalues>
+          <attvalue for="0" value="Lil Wayne" />
+          <attvalue for="1" value="65.5" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="Harry Styles" label="Harry Styles">
+        <attvalues>
+          <attvalue for="0" value="Harry Styles" />
+          <attvalue for="1" value="73.0909090909091" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </node>
+      <node id="Stevie Nicks" label="Stevie Nicks">
+        <attvalues>
+          <attvalue for="0" value="Stevie Nicks" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Pharrell Williams" label="Pharrell Williams">
+        <attvalues>
+          <attvalue for="0" value="Pharrell Williams" />
+          <attvalue for="1" value="58.333333333333336" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Brandi Carlile" label="Brandi Carlile">
+        <attvalues>
+          <attvalue for="0" value="Brandi Carlile" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="WATT" label="WATT">
+        <attvalues>
+          <attvalue for="0" value="WATT" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Yo-Yo Ma" label="Yo-Yo Ma">
+        <attvalues>
+          <attvalue for="0" value="Yo-Yo Ma" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Robert Trujillo" label="Robert Trujillo">
+        <attvalues>
+          <attvalue for="0" value="Robert Trujillo" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Chad Smith" label="Chad Smith">
+        <attvalues>
+          <attvalue for="0" value="Chad Smith" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="French Montana" label="French Montana">
+        <attvalues>
+          <attvalue for="0" value="French Montana" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Billy Idol" label="Billy Idol">
+        <attvalues>
+          <attvalue for="0" value="Billy Idol" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sia" label="Sia">
+        <attvalues>
+          <attvalue for="0" value="Sia" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="070 Shake" label="070 Shake">
+        <attvalues>
+          <attvalue for="0" value="070 Shake" />
+          <attvalue for="1" value="70.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="cassö" label="cassö">
+        <attvalues>
+          <attvalue for="0" value="cassö" />
+          <attvalue for="1" value="55.75" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="Valexus" label="Valexus">
+        <attvalues>
+          <attvalue for="0" value="Valexus" />
+          <attvalue for="1" value="70.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="D-Block Europe" label="D-Block Europe">
+        <attvalues>
+          <attvalue for="0" value="D-Block Europe" />
+          <attvalue for="1" value="55.75" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="Central Cee" label="Central Cee">
+        <attvalues>
+          <attvalue for="0" value="Central Cee" />
+          <attvalue for="1" value="58.333333333333336" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Disclosure" label="Disclosure">
+        <attvalues>
+          <attvalue for="0" value="Disclosure" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mahalia" label="Mahalia">
+        <attvalues>
+          <attvalue for="0" value="Mahalia" />
+          <attvalue for="1" value="59.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Da Beatfreakz" label="Da Beatfreakz">
+        <attvalues>
+          <attvalue for="0" value="Da Beatfreakz" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Russ Millions" label="Russ Millions">
+        <attvalues>
+          <attvalue for="0" value="Russ Millions" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="wewantwraiths" label="wewantwraiths">
+        <attvalues>
+          <attvalue for="0" value="wewantwraiths" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="David Guetta" label="David Guetta">
+        <attvalues>
+          <attvalue for="0" value="David Guetta" />
+          <attvalue for="1" value="51.806451612903224" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="55" />
+        </attvalues>
+      </node>
+      <node id="Hypaton" label="Hypaton">
+        <attvalues>
+          <attvalue for="0" value="Hypaton" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Riton" label="Riton">
+        <attvalues>
+          <attvalue for="0" value="Riton" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Coi Leray" label="Coi Leray">
+        <attvalues>
+          <attvalue for="0" value="Coi Leray" />
+          <attvalue for="1" value="59.666666666666664" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="The Heritage Orchestra" label="The Heritage Orchestra">
+        <attvalues>
+          <attvalue for="0" value="The Heritage Orchestra" />
+          <attvalue for="1" value="47.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="MORTEN" label="MORTEN">
+        <attvalues>
+          <attvalue for="0" value="MORTEN" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Joel Corry" label="Joel Corry">
+        <attvalues>
+          <attvalue for="0" value="Joel Corry" />
+          <attvalue for="1" value="49.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Hans Zimmer" label="Hans Zimmer">
+        <attvalues>
+          <attvalue for="0" value="Hans Zimmer" />
+          <attvalue for="1" value="45.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Tate McRae" label="Tate McRae">
+        <attvalues>
+          <attvalue for="0" value="Tate McRae" />
+          <attvalue for="1" value="72.04" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="Flo Milli" label="Flo Milli">
+        <attvalues>
+          <attvalue for="0" value="Flo Milli" />
+          <attvalue for="1" value="76.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Tiësto" label="Tiësto">
+        <attvalues>
+          <attvalue for="0" value="Tiësto" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="The Kid LAROI" label="The Kid LAROI">
+        <attvalues>
+          <attvalue for="0" value="The Kid LAROI" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Regard" label="Regard">
+        <attvalues>
+          <attvalue for="0" value="Regard" />
+          <attvalue for="1" value="60.5" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Martin Garrix" label="Martin Garrix">
+        <attvalues>
+          <attvalue for="0" value="Martin Garrix" />
+          <attvalue for="1" value="65.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="xxtristanxo" label="xxtristanxo">
+        <attvalues>
+          <attvalue for="0" value="xxtristanxo" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Slowed Radio" label="Slowed Radio">
+        <attvalues>
+          <attvalue for="0" value="Slowed Radio" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Allday" label="Allday">
+        <attvalues>
+          <attvalue for="0" value="Allday" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alex Hope" label="Alex Hope">
+        <attvalues>
+          <attvalue for="0" value="Alex Hope" />
+          <attvalue for="1" value="49.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Topic" label="Topic">
+        <attvalues>
+          <attvalue for="0" value="Topic" />
+          <attvalue for="1" value="49.5" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="Alessia Cara" label="Alessia Cara">
+        <attvalues>
+          <attvalue for="0" value="Alessia Cara" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Betty Who" label="Betty Who">
+        <attvalues>
+          <attvalue for="0" value="Betty Who" />
+          <attvalue for="1" value="47.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lorde" label="Lorde">
+        <attvalues>
+          <attvalue for="0" value="Lorde" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="cupcakKe" label="cupcakKe">
+        <attvalues>
+          <attvalue for="0" value="cupcakKe" />
+          <attvalue for="1" value="62.5" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Sam Smith" label="Sam Smith">
+        <attvalues>
+          <attvalue for="0" value="Sam Smith" />
+          <attvalue for="1" value="62.08888888888889" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="Big Freedia" label="Big Freedia">
+        <attvalues>
+          <attvalue for="0" value="Big Freedia" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Brooke Candy" label="Brooke Candy">
+        <attvalues>
+          <attvalue for="0" value="Brooke Candy" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Pabllo Vittar" label="Pabllo Vittar">
+        <attvalues>
+          <attvalue for="0" value="Pabllo Vittar" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Addison Rae" label="Addison Rae">
+        <attvalues>
+          <attvalue for="0" value="Addison Rae" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="A. G. Cook" label="A. G. Cook">
+        <attvalues>
+          <attvalue for="0" value="A. G. Cook" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Rina Sawayama" label="Rina Sawayama">
+        <attvalues>
+          <attvalue for="0" value="Rina Sawayama" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kesha" label="Kesha">
+        <attvalues>
+          <attvalue for="0" value="Kesha" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bb trickz" label="Bb trickz">
+        <attvalues>
+          <attvalue for="0" value="Bb trickz" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sabrina Carpenter" label="Sabrina Carpenter">
+        <attvalues>
+          <attvalue for="0" value="Sabrina Carpenter" />
+          <attvalue for="1" value="76.49019607843137" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Farruko" label="Farruko">
+        <attvalues>
+          <attvalue for="0" value="Farruko" />
+          <attvalue for="1" value="75.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Dolly Parton" label="Dolly Parton">
+        <attvalues>
+          <attvalue for="0" value="Dolly Parton" />
+          <attvalue for="1" value="69.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Charlie Puth" label="Charlie Puth">
+        <attvalues>
+          <attvalue for="0" value="Charlie Puth" />
+          <attvalue for="1" value="59.4375" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="22" />
+        </attvalues>
+      </node>
+      <node id="Dan + Shay" label="Dan + Shay">
+        <attvalues>
+          <attvalue for="0" value="Dan + Shay" />
+          <attvalue for="1" value="64.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Lil Uzi Vert" label="Lil Uzi Vert">
+        <attvalues>
+          <attvalue for="0" value="Lil Uzi Vert" />
+          <attvalue for="1" value="69.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Beyoncé" label="Beyoncé">
+        <attvalues>
+          <attvalue for="0" value="Beyoncé" />
+          <attvalue for="1" value="68.15384615384616" />
+          <attvalue for="2" value="2003" />
+          <attvalue for="3" value="25" />
+        </attvalues>
+      </node>
+      <node id="2 Chainz" label="2 Chainz">
+        <attvalues>
+          <attvalue for="0" value="2 Chainz" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Eminem" label="Eminem">
+        <attvalues>
+          <attvalue for="0" value="Eminem" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jeremih" label="Jeremih">
+        <attvalues>
+          <attvalue for="0" value="Jeremih" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Juice WRLD" label="Juice WRLD">
+        <attvalues>
+          <attvalue for="0" value="Juice WRLD" />
+          <attvalue for="1" value="63.5" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="will.i.am" label="will.i.am">
+        <attvalues>
+          <attvalue for="0" value="will.i.am" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="PinkPantheress" label="PinkPantheress">
+        <attvalues>
+          <attvalue for="0" value="PinkPantheress" />
+          <attvalue for="1" value="61.166666666666664" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="13" />
+        </attvalues>
+      </node>
+      <node id="Ice Spice" label="Ice Spice">
+        <attvalues>
+          <attvalue for="0" value="Ice Spice" />
+          <attvalue for="1" value="52.1875" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Cash Cobain" label="Cash Cobain">
+        <attvalues>
+          <attvalue for="0" value="Cash Cobain" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bay Swag" label="Bay Swag">
+        <attvalues>
+          <attvalue for="0" value="Bay Swag" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="JAY-Z" label="JAY-Z">
+        <attvalues>
+          <attvalue for="0" value="JAY-Z" />
+          <attvalue for="1" value="76.4" />
+          <attvalue for="2" value="2003" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Calvin Harris" label="Calvin Harris">
+        <attvalues>
+          <attvalue for="0" value="Calvin Harris" />
+          <attvalue for="1" value="66.71428571428571" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="Paul McCartney" label="Paul McCartney">
+        <attvalues>
+          <attvalue for="0" value="Paul McCartney" />
+          <attvalue for="1" value="79.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Mikky Ekko" label="Mikky Ekko">
+        <attvalues>
+          <attvalue for="0" value="Mikky Ekko" />
+          <attvalue for="1" value="77.0" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ne-Yo" label="Ne-Yo">
+        <attvalues>
+          <attvalue for="0" value="Ne-Yo" />
+          <attvalue for="1" value="74.0" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Selena Gomez" label="Selena Gomez">
+        <attvalues>
+          <attvalue for="0" value="Selena Gomez" />
+          <attvalue for="1" value="67.30952380952381" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="27" />
+        </attvalues>
+      </node>
+      <node id="A$AP Rocky" label="A$AP Rocky">
+        <attvalues>
+          <attvalue for="0" value="A$AP Rocky" />
+          <attvalue for="1" value="65.5" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="benny blanco" label="benny blanco">
+        <attvalues>
+          <attvalue for="0" value="benny blanco" />
+          <attvalue for="1" value="67.23076923076923" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="17" />
+        </attvalues>
+      </node>
+      <node id="J Balvin" label="J Balvin">
+        <attvalues>
+          <attvalue for="0" value="J Balvin" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Tainy" label="Tainy">
+        <attvalues>
+          <attvalue for="0" value="Tainy" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="Ludacris" label="Ludacris">
+        <attvalues>
+          <attvalue for="0" value="Ludacris" />
+          <attvalue for="1" value="85.0" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Daniel Caesar" label="Daniel Caesar">
+        <attvalues>
+          <attvalue for="0" value="Daniel Caesar" />
+          <attvalue for="1" value="81.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Jaden" label="Jaden">
+        <attvalues>
+          <attvalue for="0" value="Jaden" />
+          <attvalue for="1" value="77.0" />
+          <attvalue for="2" value="2011" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Quavo" label="Quavo">
+        <attvalues>
+          <attvalue for="0" value="Quavo" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Big Sean" label="Big Sean">
+        <attvalues>
+          <attvalue for="0" value="Big Sean" />
+          <attvalue for="1" value="58.75" />
+          <attvalue for="2" value="2012" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Shawn Mendes" label="Shawn Mendes">
+        <attvalues>
+          <attvalue for="0" value="Shawn Mendes" />
+          <attvalue for="1" value="66.625" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="9" />
+        </attvalues>
+      </node>
+      <node id="Clever" label="Clever">
+        <attvalues>
+          <attvalue for="0" value="Clever" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bradley Cooper" label="Bradley Cooper">
+        <attvalues>
+          <attvalue for="0" value="Bradley Cooper" />
+          <attvalue for="1" value="78.5" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Colby O'Donis" label="Colby O'Donis">
+        <attvalues>
+          <attvalue for="0" value="Colby O'Donis" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="2008" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Christina Aguilera" label="Christina Aguilera">
+        <attvalues>
+          <attvalue for="0" value="Christina Aguilera" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2013" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Normani" label="Normani">
+        <attvalues>
+          <attvalue for="0" value="Normani" />
+          <attvalue for="1" value="77.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Burna Boy" label="Burna Boy">
+        <attvalues>
+          <attvalue for="0" value="Burna Boy" />
+          <attvalue for="1" value="63.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Aitana" label="Aitana">
+        <attvalues>
+          <attvalue for="0" value="Aitana" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alicia Keys" label="Alicia Keys">
+        <attvalues>
+          <attvalue for="0" value="Alicia Keys" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Labrinth" label="Labrinth">
+        <attvalues>
+          <attvalue for="0" value="Labrinth" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Felix Jaehn" label="Felix Jaehn">
+        <attvalues>
+          <attvalue for="0" value="Felix Jaehn" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Original Koffee" label="Original Koffee">
+        <attvalues>
+          <attvalue for="0" value="Original Koffee" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="TAEYEON" label="TAEYEON">
+        <attvalues>
+          <attvalue for="0" value="TAEYEON" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Hikaru Utada" label="Hikaru Utada">
+        <attvalues>
+          <attvalue for="0" value="Hikaru Utada" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Shakira" label="Shakira">
+        <attvalues>
+          <attvalue for="0" value="Shakira" />
+          <attvalue for="1" value="71.0" />
+          <attvalue for="2" value="2007" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Sean Paul" label="Sean Paul">
+        <attvalues>
+          <attvalue for="0" value="Sean Paul" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2003" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="BEAM" label="BEAM">
+        <attvalues>
+          <attvalue for="0" value="BEAM" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Shaboozey" label="Shaboozey">
+        <attvalues>
+          <attvalue for="0" value="Shaboozey" />
+          <attvalue for="1" value="66.5" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Linda Martell" label="Linda Martell">
+        <attvalues>
+          <attvalue for="0" value="Linda Martell" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Tanner Adell" label="Tanner Adell">
+        <attvalues>
+          <attvalue for="0" value="Tanner Adell" />
+          <attvalue for="1" value="55.5" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Brittney Spencer" label="Brittney Spencer">
+        <attvalues>
+          <attvalue for="0" value="Brittney Spencer" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Tiera Kennedy" label="Tiera Kennedy">
+        <attvalues>
+          <attvalue for="0" value="Tiera Kennedy" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Reyna Roberts" label="Reyna Roberts">
+        <attvalues>
+          <attvalue for="0" value="Reyna Roberts" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Shatta Wale" label="Shatta Wale">
+        <attvalues>
+          <attvalue for="0" value="Shatta Wale" />
+          <attvalue for="1" value="65.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Major Lazer" label="Major Lazer">
+        <attvalues>
+          <attvalue for="0" value="Major Lazer" />
+          <attvalue for="1" value="59.5" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Chimamanda Ngozi Adichie" label="Chimamanda Ngozi Adichie">
+        <attvalues>
+          <attvalue for="0" value="Chimamanda Ngozi Adichie" />
+          <attvalue for="1" value="65.0" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Young Thug" label="Young Thug">
+        <attvalues>
+          <attvalue for="0" value="Young Thug" />
+          <attvalue for="1" value="84.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Stryv" label="Stryv">
+        <attvalues>
+          <attvalue for="0" value="Stryv" />
+          <attvalue for="1" value="79.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Keinemusik" label="Keinemusik">
+        <attvalues>
+          <attvalue for="0" value="Keinemusik" />
+          <attvalue for="1" value="79.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Malachiii" label="Malachiii">
+        <attvalues>
+          <attvalue for="0" value="Malachiii" />
+          <attvalue for="1" value="79.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Orso" label="Orso">
+        <attvalues>
+          <attvalue for="0" value="Orso" />
+          <attvalue for="1" value="79.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Bazzi" label="Bazzi">
+        <attvalues>
+          <attvalue for="0" value="Bazzi" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Daddy Yankee" label="Daddy Yankee">
+        <attvalues>
+          <attvalue for="0" value="Daddy Yankee" />
+          <attvalue for="1" value="63.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lil Nas X" label="Lil Nas X">
+        <attvalues>
+          <attvalue for="0" value="Lil Nas X" />
+          <attvalue for="1" value="61.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alejandro Sanz" label="Alejandro Sanz">
+        <attvalues>
+          <attvalue for="0" value="Alejandro Sanz" />
+          <attvalue for="1" value="59.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Maria Becerra" label="Maria Becerra">
+        <attvalues>
+          <attvalue for="0" value="Maria Becerra" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="JT" label="JT">
+        <attvalues>
+          <attvalue for="0" value="JT" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Yung Miami" label="Yung Miami">
+        <attvalues>
+          <attvalue for="0" value="Yung Miami" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Eem Triplin" label="Eem Triplin">
+        <attvalues>
+          <attvalue for="0" value="Eem Triplin" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="WILLOW" label="WILLOW">
+        <attvalues>
+          <attvalue for="0" value="WILLOW" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Myke Towers" label="Myke Towers">
+        <attvalues>
+          <attvalue for="0" value="Myke Towers" />
+          <attvalue for="1" value="54.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Mark Ronson" label="Mark Ronson">
+        <attvalues>
+          <attvalue for="0" value="Mark Ronson" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Anna Kendrick" label="Anna Kendrick">
+        <attvalues>
+          <attvalue for="0" value="Anna Kendrick" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Justin Timberlake" label="Justin Timberlake">
+        <attvalues>
+          <attvalue for="0" value="Justin Timberlake" />
+          <attvalue for="1" value="56.5" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="8" />
+        </attvalues>
+      </node>
+      <node id="Eric Andre" label="Eric Andre">
+        <attvalues>
+          <attvalue for="0" value="Eric Andre" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Daveed Diggs" label="Daveed Diggs">
+        <attvalues>
+          <attvalue for="0" value="Daveed Diggs" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Kid Cudi" label="Kid Cudi">
+        <attvalues>
+          <attvalue for="0" value="Kid Cudi" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Camilo" label="Camilo">
+        <attvalues>
+          <attvalue for="0" value="Camilo" />
+          <attvalue for="1" value="68.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="The Chainsmokers" label="The Chainsmokers">
+        <attvalues>
+          <attvalue for="0" value="The Chainsmokers" />
+          <attvalue for="1" value="89.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Halsey" label="Halsey">
+        <attvalues>
+          <attvalue for="0" value="Halsey" />
+          <attvalue for="1" value="59.75555555555555" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="11" />
+        </attvalues>
+      </node>
+      <node id="SUGA" label="SUGA">
+        <attvalues>
+          <attvalue for="0" value="SUGA" />
+          <attvalue for="1" value="63.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lauren Jauregui" label="Lauren Jauregui">
+        <attvalues>
+          <attvalue for="0" value="Lauren Jauregui" />
+          <attvalue for="1" value="59.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="ARTY" label="ARTY">
+        <attvalues>
+          <attvalue for="0" value="ARTY" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Audien" label="Audien">
+        <attvalues>
+          <attvalue for="0" value="Audien" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="ILLENIUM" label="ILLENIUM">
+        <attvalues>
+          <attvalue for="0" value="ILLENIUM" />
+          <attvalue for="1" value="52.5" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Zara Larsson" label="Zara Larsson">
+        <attvalues>
+          <attvalue for="0" value="Zara Larsson" />
+          <attvalue for="1" value="52.022222222222226" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="13" />
+        </attvalues>
+      </node>
+      <node id="Clean Bandit" label="Clean Bandit">
+        <attvalues>
+          <attvalue for="0" value="Clean Bandit" />
+          <attvalue for="1" value="52.625" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="16" />
+        </attvalues>
+      </node>
+      <node id="Alesso" label="Alesso">
+        <attvalues>
+          <attvalue for="0" value="Alesso" />
+          <attvalue for="1" value="73.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="MNEK" label="MNEK">
+        <attvalues>
+          <attvalue for="0" value="MNEK" />
+          <attvalue for="1" value="74.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kygo" label="Kygo">
+        <attvalues>
+          <attvalue for="0" value="Kygo" />
+          <attvalue for="1" value="68.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Ty Dolla $ign" label="Ty Dolla $ign">
+        <attvalues>
+          <attvalue for="0" value="Ty Dolla $ign" />
+          <attvalue for="1" value="51.5" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Don Diablo" label="Don Diablo">
+        <attvalues>
+          <attvalue for="0" value="Don Diablo" />
+          <attvalue for="1" value="47.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alok" label="Alok">
+        <attvalues>
+          <attvalue for="0" value="Alok" />
+          <attvalue for="1" value="60.285714285714285" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="13" />
+        </attvalues>
+      </node>
+      <node id="Gorgon City" label="Gorgon City">
+        <attvalues>
+          <attvalue for="0" value="Gorgon City" />
+          <attvalue for="1" value="40.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bleachers" label="Bleachers">
+        <attvalues>
+          <attvalue for="0" value="Bleachers" />
+          <attvalue for="1" value="83.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Father John Misty" label="Father John Misty">
+        <attvalues>
+          <attvalue for="0" value="Father John Misty" />
+          <attvalue for="1" value="80.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SYML" label="SYML">
+        <attvalues>
+          <attvalue for="0" value="SYML" />
+          <attvalue for="1" value="74.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Tommy Genesis" label="Tommy Genesis">
+        <attvalues>
+          <attvalue for="0" value="Tommy Genesis" />
+          <attvalue for="1" value="71.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Conan Gray" label="Conan Gray">
+        <attvalues>
+          <attvalue for="0" value="Conan Gray" />
+          <attvalue for="1" value="63.265306122448976" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Lauv" label="Lauv">
+        <attvalues>
+          <attvalue for="0" value="Lauv" />
+          <attvalue for="1" value="60.29545454545455" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="15" />
+        </attvalues>
+      </node>
+      <node id="Kehlani" label="Kehlani">
+        <attvalues>
+          <attvalue for="0" value="Kehlani" />
+          <attvalue for="1" value="70.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Stray Kids" label="Stray Kids">
+        <attvalues>
+          <attvalue for="0" value="Stray Kids" />
+          <attvalue for="1" value="69.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Wale" label="Wale">
+        <attvalues>
+          <attvalue for="0" value="Wale" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Wiz Khalifa" label="Wiz Khalifa">
+        <attvalues>
+          <attvalue for="0" value="Wiz Khalifa" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2015" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Sasha Alex Sloan" label="Sasha Alex Sloan">
+        <attvalues>
+          <attvalue for="0" value="Sasha Alex Sloan" />
+          <attvalue for="1" value="59.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="blackbear" label="blackbear">
+        <attvalues>
+          <attvalue for="0" value="blackbear" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="DROELOE" label="DROELOE">
+        <attvalues>
+          <attvalue for="0" value="DROELOE" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Jung Kook" label="Jung Kook">
+        <attvalues>
+          <attvalue for="0" value="Jung Kook" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="BTS" label="BTS">
+        <attvalues>
+          <attvalue for="0" value="BTS" />
+          <attvalue for="1" value="61.666666666666664" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Boyz II Men" label="Boyz II Men">
+        <attvalues>
+          <attvalue for="0" value="Boyz II Men" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="James Taylor" label="James Taylor">
+        <attvalues>
+          <attvalue for="0" value="James Taylor" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Mr. Collipark" label="Mr. Collipark">
+        <attvalues>
+          <attvalue for="0" value="Mr. Collipark" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Anne-Marie" label="Anne-Marie">
+        <attvalues>
+          <attvalue for="0" value="Anne-Marie" />
+          <attvalue for="1" value="52.01960784313726" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="44" />
+        </attvalues>
+      </node>
+      <node id="Shania Twain" label="Shania Twain">
+        <attvalues>
+          <attvalue for="0" value="Shania Twain" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Niall Horan" label="Niall Horan">
+        <attvalues>
+          <attvalue for="0" value="Niall Horan" />
+          <attvalue for="1" value="59.57142857142857" />
+          <attvalue for="2" value="2016" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Aitch" label="Aitch">
+        <attvalues>
+          <attvalue for="0" value="Aitch" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Little Mix" label="Little Mix">
+        <attvalues>
+          <attvalue for="0" value="Little Mix" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="NEIKED" label="NEIKED">
+        <attvalues>
+          <attvalue for="0" value="NEIKED" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Latto" label="Latto">
+        <attvalues>
+          <attvalue for="0" value="Latto" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="KSI" label="KSI">
+        <attvalues>
+          <attvalue for="0" value="KSI" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Digital Farm Animals" label="Digital Farm Animals">
+        <attvalues>
+          <attvalue for="0" value="Digital Farm Animals" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SEVENTEEN" label="SEVENTEEN">
+        <attvalues>
+          <attvalue for="0" value="SEVENTEEN" />
+          <attvalue for="1" value="49.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="MINNIE" label="MINNIE">
+        <attvalues>
+          <attvalue for="0" value="MINNIE" />
+          <attvalue for="1" value="48.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="(G)I-DLE" label="(G)I-DLE">
+        <attvalues>
+          <attvalue for="0" value="(G)I-DLE" />
+          <attvalue for="1" value="61.666666666666664" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="Nicholas Galitzine" label="Nicholas Galitzine">
+        <attvalues>
+          <attvalue for="0" value="Nicholas Galitzine" />
+          <attvalue for="1" value="46.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Diljit Dosanjh" label="Diljit Dosanjh">
+        <attvalues>
+          <attvalue for="0" value="Diljit Dosanjh" />
+          <attvalue for="1" value="45.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Intense" label="Intense">
+        <attvalues>
+          <attvalue for="0" value="Intense" />
+          <attvalue for="1" value="45.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="ALTÉGO" label="ALTÉGO">
+        <attvalues>
+          <attvalue for="0" value="ALTÉGO" />
+          <attvalue for="1" value="44.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ruger" label="Ruger">
+        <attvalues>
+          <attvalue for="0" value="Ruger" />
+          <attvalue for="1" value="41.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Ashe" label="Ashe">
+        <attvalues>
+          <attvalue for="0" value="Ashe" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Maren Morris" label="Maren Morris">
+        <attvalues>
+          <attvalue for="0" value="Maren Morris" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Madison Beer" label="Madison Beer">
+        <attvalues>
+          <attvalue for="0" value="Madison Beer" />
+          <attvalue for="1" value="56.229166666666664" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="14" />
+        </attvalues>
+      </node>
+      <node id="K/DA" label="K/DA">
+        <attvalues>
+          <attvalue for="0" value="K/DA" />
+          <attvalue for="1" value="68.5" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="Jaira Burns" label="Jaira Burns">
+        <attvalues>
+          <attvalue for="0" value="Jaira Burns" />
+          <attvalue for="1" value="68.5" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="League of Legends" label="League of Legends">
+        <attvalues>
+          <attvalue for="0" value="League of Legends" />
+          <attvalue for="1" value="68.5" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="10" />
+        </attvalues>
+      </node>
+      <node id="Lexie Liu" label="Lexie Liu">
+        <attvalues>
+          <attvalue for="0" value="Lexie Liu" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Seraphine" label="Seraphine">
+        <attvalues>
+          <attvalue for="0" value="Seraphine" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Offset" label="Offset">
+        <attvalues>
+          <attvalue for="0" value="Offset" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jax Jones" label="Jax Jones">
+        <attvalues>
+          <attvalue for="0" value="Jax Jones" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Martin Solveig" label="Martin Solveig">
+        <attvalues>
+          <attvalue for="0" value="Martin Solveig" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Europa" label="Europa">
+        <attvalues>
+          <attvalue for="0" value="Europa" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Alphaville" label="Alphaville">
+        <attvalues>
+          <attvalue for="0" value="Alphaville" />
+          <attvalue for="1" value="68.5" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Ava Max" label="Ava Max">
+        <attvalues>
+          <attvalue for="0" value="Ava Max" />
+          <attvalue for="1" value="58.869565217391305" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="19" />
+        </attvalues>
+      </node>
+      <node id="AJ Mitchell" label="AJ Mitchell">
+        <attvalues>
+          <attvalue for="0" value="AJ Mitchell" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="ENHYPEN" label="ENHYPEN">
+        <attvalues>
+          <attvalue for="0" value="ENHYPEN" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Pablo Alborán" label="Pablo Alborán">
+        <attvalues>
+          <attvalue for="0" value="Pablo Alborán" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jonas Blue" label="Jonas Blue">
+        <attvalues>
+          <attvalue for="0" value="Jonas Blue" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Da Tweekaz" label="Da Tweekaz">
+        <attvalues>
+          <attvalue for="0" value="Da Tweekaz" />
+          <attvalue for="1" value="51.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Robin Schulz" label="Robin Schulz">
+        <attvalues>
+          <attvalue for="0" value="Robin Schulz" />
+          <attvalue for="1" value="46.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Lauren Spencer Smith" label="Lauren Spencer Smith">
+        <attvalues>
+          <attvalue for="0" value="Lauren Spencer Smith" />
+          <attvalue for="1" value="47.297872340425535" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="GAYLE" label="GAYLE">
+        <attvalues>
+          <attvalue for="0" value="GAYLE" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Em Beihold" label="Em Beihold">
+        <attvalues>
+          <attvalue for="0" value="Em Beihold" />
+          <attvalue for="1" value="34.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Sam Gellaitry" label="Sam Gellaitry">
+        <attvalues>
+          <attvalue for="0" value="Sam Gellaitry" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LE SSERAFIM" label="LE SSERAFIM">
+        <attvalues>
+          <attvalue for="0" value="LE SSERAFIM" />
+          <attvalue for="1" value="54.666666666666664" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Rema" label="Rema">
+        <attvalues>
+          <attvalue for="0" value="Rema" />
+          <attvalue for="1" value="62.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Shygirl" label="Shygirl">
+        <attvalues>
+          <attvalue for="0" value="Shygirl" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Club Shy" label="Club Shy">
+        <attvalues>
+          <attvalue for="0" value="Club Shy" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Isabella Lovestory" label="Isabella Lovestory">
+        <attvalues>
+          <attvalue for="0" value="Isabella Lovestory" />
+          <attvalue for="1" value="60.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Destroy Lonely" label="Destroy Lonely">
+        <attvalues>
+          <attvalue for="0" value="Destroy Lonely" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kelela" label="Kelela">
+        <attvalues>
+          <attvalue for="0" value="Kelela" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Bebe Rexha" label="Bebe Rexha">
+        <attvalues>
+          <attvalue for="0" value="Bebe Rexha" />
+          <attvalue for="1" value="49.02040816326531" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="45" />
+        </attvalues>
+      </node>
+      <node id="Florida Georgia Line" label="Florida Georgia Line">
+        <attvalues>
+          <attvalue for="0" value="Florida Georgia Line" />
+          <attvalue for="1" value="74.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Loud Luxury" label="Loud Luxury">
+        <attvalues>
+          <attvalue for="0" value="Loud Luxury" />
+          <attvalue for="1" value="61.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Two Friends" label="Two Friends">
+        <attvalues>
+          <attvalue for="0" value="Two Friends" />
+          <attvalue for="1" value="61.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Nathan Dawe" label="Nathan Dawe">
+        <attvalues>
+          <attvalue for="0" value="Nathan Dawe" />
+          <attvalue for="1" value="57.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="A Boogie Wit da Hoodie" label="A Boogie Wit da Hoodie">
+        <attvalues>
+          <attvalue for="0" value="A Boogie Wit da Hoodie" />
+          <attvalue for="1" value="54.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Ben Nicky" label="Ben Nicky">
+        <attvalues>
+          <attvalue for="0" value="Ben Nicky" />
+          <attvalue for="1" value="46.5" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Dr Phunk" label="Dr Phunk">
+        <attvalues>
+          <attvalue for="0" value="Dr Phunk" />
+          <attvalue for="1" value="54.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Dimitri Vegas &amp; Like Mike" label="Dimitri Vegas &amp; Like Mike">
+        <attvalues>
+          <attvalue for="0" value="Dimitri Vegas &amp; Like Mike" />
+          <attvalue for="1" value="54.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Oliver Heldens" label="Oliver Heldens">
+        <attvalues>
+          <attvalue for="0" value="Oliver Heldens" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="DJs From Mars" label="DJs From Mars">
+        <attvalues>
+          <attvalue for="0" value="DJs From Mars" />
+          <attvalue for="1" value="46.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Masked Wolf" label="Masked Wolf">
+        <attvalues>
+          <attvalue for="0" value="Masked Wolf" />
+          <attvalue for="1" value="44.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="FRDY" label="FRDY">
+        <attvalues>
+          <attvalue for="0" value="FRDY" />
+          <attvalue for="1" value="41.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Tory Lanez" label="Tory Lanez">
+        <attvalues>
+          <attvalue for="0" value="Tory Lanez" />
+          <attvalue for="1" value="41.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ozuna" label="Ozuna">
+        <attvalues>
+          <attvalue for="0" value="Ozuna" />
+          <attvalue for="1" value="39.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Travis Barker" label="Travis Barker">
+        <attvalues>
+          <attvalue for="0" value="Travis Barker" />
+          <attvalue for="1" value="37.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Cedric Gervais" label="Cedric Gervais">
+        <attvalues>
+          <attvalue for="0" value="Cedric Gervais" />
+          <attvalue for="1" value="37.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Gabry Ponte" label="Gabry Ponte">
+        <attvalues>
+          <attvalue for="0" value="Gabry Ponte" />
+          <attvalue for="1" value="37.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Ellie Goulding" label="Ellie Goulding">
+        <attvalues>
+          <attvalue for="0" value="Ellie Goulding" />
+          <attvalue for="1" value="53.26470588235294" />
+          <attvalue for="2" value="2010" />
+          <attvalue for="3" value="12" />
+        </attvalues>
+      </node>
+      <node id="Anyma" label="Anyma">
+        <attvalues>
+          <attvalue for="0" value="Anyma" />
+          <attvalue for="1" value="62.333333333333336" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Sigala" label="Sigala">
+        <attvalues>
+          <attvalue for="0" value="Sigala" />
+          <attvalue for="1" value="70.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Speed Radio" label="Speed Radio">
+        <attvalues>
+          <attvalue for="0" value="Speed Radio" />
+          <attvalue for="1" value="68.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="John Summit" label="John Summit">
+        <attvalues>
+          <attvalue for="0" value="John Summit" />
+          <attvalue for="1" value="66.0" />
+          <attvalue for="2" value="2025" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="southstar" label="southstar">
+        <attvalues>
+          <attvalue for="0" value="southstar" />
+          <attvalue for="1" value="49.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Four Tet" label="Four Tet">
+        <attvalues>
+          <attvalue for="0" value="Four Tet" />
+          <attvalue for="1" value="45.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="HUGEL" label="HUGEL">
+        <attvalues>
+          <attvalue for="0" value="HUGEL" />
+          <attvalue for="1" value="42.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Arash" label="Arash">
+        <attvalues>
+          <attvalue for="0" value="Arash" />
+          <attvalue for="1" value="42.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Daecolm" label="Daecolm">
+        <attvalues>
+          <attvalue for="0" value="Daecolm" />
+          <attvalue for="1" value="42.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="LANY" label="LANY">
+        <attvalues>
+          <attvalue for="0" value="LANY" />
+          <attvalue for="1" value="78.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="LAY" label="LAY">
+        <attvalues>
+          <attvalue for="0" value="LAY" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Jeremy Zucker" label="Jeremy Zucker">
+        <attvalues>
+          <attvalue for="0" value="Jeremy Zucker" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Alexander 23" label="Alexander 23">
+        <attvalues>
+          <attvalue for="0" value="Alexander 23" />
+          <attvalue for="1" value="56.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Bella Poarch" label="Bella Poarch">
+        <attvalues>
+          <attvalue for="0" value="Bella Poarch" />
+          <attvalue for="1" value="53.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Miquela" label="Miquela">
+        <attvalues>
+          <attvalue for="0" value="Miquela" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="TWICE" label="TWICE">
+        <attvalues>
+          <attvalue for="0" value="TWICE" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Ryan Riback" label="Ryan Riback">
+        <attvalues>
+          <attvalue for="0" value="Ryan Riback" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2018" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Becky Hill" label="Becky Hill">
+        <attvalues>
+          <attvalue for="0" value="Becky Hill" />
+          <attvalue for="1" value="46.25" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="29" />
+        </attvalues>
+      </node>
+      <node id="Chase &amp; Status" label="Chase &amp; Status">
+        <attvalues>
+          <attvalue for="0" value="Chase &amp; Status" />
+          <attvalue for="1" value="60.333333333333336" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="4" />
+        </attvalues>
+      </node>
+      <node id="Andy C" label="Andy C">
+        <attvalues>
+          <attvalue for="0" value="Andy C" />
+          <attvalue for="1" value="43.75" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="5" />
+        </attvalues>
+      </node>
+      <node id="Sonny Fodera" label="Sonny Fodera">
+        <attvalues>
+          <attvalue for="0" value="Sonny Fodera" />
+          <attvalue for="1" value="55.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Lewis Thompson" label="Lewis Thompson">
+        <attvalues>
+          <attvalue for="0" value="Lewis Thompson" />
+          <attvalue for="1" value="50.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Zerb" label="Zerb">
+        <attvalues>
+          <attvalue for="0" value="Zerb" />
+          <attvalue for="1" value="48.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Shift K3Y" label="Shift K3Y">
+        <attvalues>
+          <attvalue for="0" value="Shift K3Y" />
+          <attvalue for="1" value="47.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="SHY FX" label="SHY FX">
+        <attvalues>
+          <attvalue for="0" value="SHY FX" />
+          <attvalue for="1" value="45.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Mr. Williamz" label="Mr. Williamz">
+        <attvalues>
+          <attvalue for="0" value="Mr. Williamz" />
+          <attvalue for="1" value="45.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Self Esteem" label="Self Esteem">
+        <attvalues>
+          <attvalue for="0" value="Self Esteem" />
+          <attvalue for="1" value="39.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Skepsis" label="Skepsis">
+        <attvalues>
+          <attvalue for="0" value="Skepsis" />
+          <attvalue for="1" value="42.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Songer" label="Songer">
+        <attvalues>
+          <attvalue for="0" value="Songer" />
+          <attvalue for="1" value="40.0" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="220 KID" label="220 KID">
+        <attvalues>
+          <attvalue for="0" value="220 KID" />
+          <attvalue for="1" value="40.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="S1mba" label="S1mba">
+        <attvalues>
+          <attvalue for="0" value="S1mba" />
+          <attvalue for="1" value="38.0" />
+          <attvalue for="2" value="2021" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="RILEASA" label="RILEASA">
+        <attvalues>
+          <attvalue for="0" value="RILEASA" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Daire" label="Daire">
+        <attvalues>
+          <attvalue for="0" value="Daire" />
+          <attvalue for="1" value="36.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Alcemist" label="Alcemist">
+        <attvalues>
+          <attvalue for="0" value="Alcemist" />
+          <attvalue for="1" value="35.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Disrupta" label="Disrupta">
+        <attvalues>
+          <attvalue for="0" value="Disrupta" />
+          <attvalue for="1" value="35.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Tove Lo" label="Tove Lo">
+        <attvalues>
+          <attvalue for="0" value="Tove Lo" />
+          <attvalue for="1" value="51.57446808510638" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="21" />
+        </attvalues>
+      </node>
+      <node id="Hippie Sabotage" label="Hippie Sabotage">
+        <attvalues>
+          <attvalue for="0" value="Hippie Sabotage" />
+          <attvalue for="1" value="58.0" />
+          <attvalue for="2" value="2014" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="SG Lewis" label="SG Lewis">
+        <attvalues>
+          <attvalue for="0" value="SG Lewis" />
+          <attvalue for="1" value="56.4" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="6" />
+        </attvalues>
+      </node>
+      <node id="Ilkay Sencan" label="Ilkay Sencan">
+        <attvalues>
+          <attvalue for="0" value="Ilkay Sencan" />
+          <attvalue for="1" value="67.0" />
+          <attvalue for="2" value="2020" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="Nelly Furtado" label="Nelly Furtado">
+        <attvalues>
+          <attvalue for="0" value="Nelly Furtado" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="2" />
+        </attvalues>
+      </node>
+      <node id="ZAAC" label="ZAAC">
+        <attvalues>
+          <attvalue for="0" value="ZAAC" />
+          <attvalue for="1" value="52.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Dom Dolla" label="Dom Dolla">
+        <attvalues>
+          <attvalue for="0" value="Dom Dolla" />
+          <attvalue for="1" value="49.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Partiboi69" label="Partiboi69">
+        <attvalues>
+          <attvalue for="0" value="Partiboi69" />
+          <attvalue for="1" value="49.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="X CLUB." label="X CLUB.">
+        <attvalues>
+          <attvalue for="0" value="X CLUB." />
+          <attvalue for="1" value="49.0" />
+          <attvalue for="2" value="2024" />
+          <attvalue for="3" value="3" />
+        </attvalues>
+      </node>
+      <node id="Channel Tres" label="Channel Tres">
+        <attvalues>
+          <attvalue for="0" value="Channel Tres" />
+          <attvalue for="1" value="48.0" />
+          <attvalue for="2" value="2022" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Kylie Minogue" label="Kylie Minogue">
+        <attvalues>
+          <attvalue for="0" value="Kylie Minogue" />
+          <attvalue for="1" value="44.0" />
+          <attvalue for="2" value="2019" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+      <node id="Daye Jack" label="Daye Jack">
+        <attvalues>
+          <attvalue for="0" value="Daye Jack" />
+          <attvalue for="1" value="43.0" />
+          <attvalue for="2" value="2017" />
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Meghan Trainor" target="John Legend" id="0" weight="2" />
+      <edge source="Meghan Trainor" target="Teddy Swims" id="1" weight="2" />
+      <edge source="Meghan Trainor" target="T-Pain" id="2" weight="1" />
+      <edge source="Meghan Trainor" target="j.bird" id="3" weight="1" />
+      <edge source="Meghan Trainor" target="Forest Blakk" id="4" weight="1" />
+      <edge source="Meghan Trainor" target="Niecy Nash" id="5" weight="1" />
+      <edge source="Meghan Trainor" target="Paul Russell" id="6" weight="1" />
+      <edge source="Meghan Trainor" target="Kelli Trainor" id="7" weight="1" />
+      <edge source="Meghan Trainor" target="The Pussycat Dolls" id="8" weight="1" />
+      <edge source="Meghan Trainor" target="LunchMoney Lewis" id="9" weight="1" />
+      <edge source="Meghan Trainor" target="Nicki Minaj" id="10" weight="1" />
+      <edge source="Meghan Trainor" target="Jason Derulo" id="11" weight="1" />
+      <edge source="Meghan Trainor" target="Sam Fischer" id="12" weight="1" />
+      <edge source="Meghan Trainor" target="Paris Hilton" id="13" weight="1" />
+      <edge source="Meghan Trainor" target="Shy Carter" id="14" weight="1" />
+      <edge source="Meghan Trainor" target="Charlie Puth" id="15" weight="1" />
+      <edge source="John Legend" target="Sam Smith" id="16" weight="1" />
+      <edge source="Nicki Minaj" target="Katy Perry" id="17" weight="1" />
+      <edge source="Nicki Minaj" target="Doja Cat" id="18" weight="1" />
+      <edge source="Nicki Minaj" target="Drake" id="19" weight="5" />
+      <edge source="Nicki Minaj" target="Lil Uzi Vert" id="20" weight="1" />
+      <edge source="Nicki Minaj" target="Lil Wayne" id="21" weight="5" />
+      <edge source="Nicki Minaj" target="Chris Brown" id="22" weight="4" />
+      <edge source="Nicki Minaj" target="Rihanna" id="23" weight="1" />
+      <edge source="Nicki Minaj" target="Beyoncé" id="24" weight="3" />
+      <edge source="Nicki Minaj" target="2 Chainz" id="25" weight="1" />
+      <edge source="Nicki Minaj" target="Travis Scott" id="26" weight="1" />
+      <edge source="Nicki Minaj" target="Sexyy Red" id="27" weight="1" />
+      <edge source="Nicki Minaj" target="Eminem" id="28" weight="1" />
+      <edge source="Nicki Minaj" target="Jeremih" id="29" weight="1" />
+      <edge source="Nicki Minaj" target="Juice WRLD" id="30" weight="1" />
+      <edge source="Nicki Minaj" target="will.i.am" id="31" weight="1" />
+      <edge source="Nicki Minaj" target="J. Cole" id="32" weight="1" />
+      <edge source="Nicki Minaj" target="Justin Bieber" id="33" weight="2" />
+      <edge source="Jonas Brothers" target="Marshmello" id="34" weight="1" />
+      <edge source="Jonas Brothers" target="Rascal Flatts" id="35" weight="1" />
+      <edge source="Jonas Brothers" target="Bailey Zimmerman" id="36" weight="1" />
+      <edge source="Jonas Brothers" target="TOMORROW X TOGETHER" id="37" weight="1" />
+      <edge source="Jonas Brothers" target="Miley Cyrus" id="38" weight="1" />
+      <edge source="Marshmello" target="Selena Gomez" id="39" weight="1" />
+      <edge source="Marshmello" target="Anne-Marie" id="40" weight="1" />
+      <edge source="Miley Cyrus" target="Dua Lipa" id="41" weight="1" />
+      <edge source="Miley Cyrus" target="Stevie Nicks" id="42" weight="1" />
+      <edge source="Miley Cyrus" target="Pharrell Williams" id="43" weight="1" />
+      <edge source="Miley Cyrus" target="Brandi Carlile" id="44" weight="1" />
+      <edge source="Miley Cyrus" target="WATT" id="45" weight="1" />
+      <edge source="Miley Cyrus" target="Elton John" id="46" weight="1" />
+      <edge source="Miley Cyrus" target="Yo-Yo Ma" id="47" weight="1" />
+      <edge source="Miley Cyrus" target="Robert Trujillo" id="48" weight="1" />
+      <edge source="Miley Cyrus" target="Chad Smith" id="49" weight="1" />
+      <edge source="Miley Cyrus" target="French Montana" id="50" weight="1" />
+      <edge source="Miley Cyrus" target="Billy Idol" id="51" weight="1" />
+      <edge source="Miley Cyrus" target="Sia" id="52" weight="1" />
+      <edge source="Miley Cyrus" target="Beyoncé" id="53" weight="1" />
+      <edge source="Noah Kahan" target="Zach Bryan" id="54" weight="1" />
+      <edge source="Noah Kahan" target="Julia Michaels" id="55" weight="1" />
+      <edge source="Noah Kahan" target="Wesley Schultz" id="56" weight="1" />
+      <edge source="Noah Kahan" target="Joy Oladokun" id="57" weight="1" />
+      <edge source="Julia Michaels" target="Lauv" id="58" weight="1" />
+      <edge source="Katy Perry" target="Juicy J" id="59" weight="2" />
+      <edge source="Katy Perry" target="Snoop Dogg" id="60" weight="2" />
+      <edge source="Katy Perry" target="Migos" id="61" weight="1" />
+      <edge source="Katy Perry" target="Skip Marley" id="62" weight="1" />
+      <edge source="Katy Perry" target="Doechii" id="63" weight="3" />
+      <edge source="Katy Perry" target="Kanye West" id="64" weight="1" />
+      <edge source="Katy Perry" target="Kim Petras" id="65" weight="1" />
+      <edge source="Snoop Dogg" target="Bebe Rexha" id="66" weight="2" />
+      <edge source="Kanye West" target="Rihanna" id="67" weight="1" />
+      <edge source="Kanye West" target="Paul McCartney" id="68" weight="1" />
+      <edge source="Kanye West" target="Beyoncé" id="69" weight="1" />
+      <edge source="Kanye West" target="JAY-Z" id="70" weight="1" />
+      <edge source="Kim Petras" target="Sam Smith" id="71" weight="1" />
+      <edge source="ROSÉ" target="Bruno Mars" id="72" weight="1" />
+      <edge source="Bruno Mars" target="Sexyy Red" id="73" weight="1" />
+      <edge source="Bruno Mars" target="Cardi B" id="74" weight="1" />
+      <edge source="Bruno Mars" target="Gucci Mane" id="75" weight="1" />
+      <edge source="Bruno Mars" target="Kodak Black" id="76" weight="1" />
+      <edge source="Bruno Mars" target="Anderson .Paak" id="77" weight="9" />
+      <edge source="Bruno Mars" target="Silk Sonic" id="78" weight="9" />
+      <edge source="Bruno Mars" target="Lady Gaga" id="79" weight="4" />
+      <edge source="Bruno Mars" target="Alan Walker" id="80" weight="1" />
+      <edge source="Bruno Mars" target="Damian Marley" id="81" weight="1" />
+      <edge source="Bruno Mars" target="R3HAB" id="82" weight="1" />
+      <edge source="Sexyy Red" target="Drake" id="83" weight="1" />
+      <edge source="Sexyy Red" target="SZA" id="84" weight="1" />
+      <edge source="Sexyy Red" target="Travis Scott" id="85" weight="1" />
+      <edge source="Sexyy Red" target="Chris Brown" id="86" weight="1" />
+      <edge source="Cardi B" target="Ed Sheeran" id="87" weight="1" />
+      <edge source="Cardi B" target="Camila Cabello" id="88" weight="1" />
+      <edge source="Gucci Mane" target="Kodak Black" id="89" weight="1" />
+      <edge source="Gucci Mane" target="Doja Cat" id="90" weight="1" />
+      <edge source="Gucci Mane" target="Selena Gomez" id="91" weight="1" />
+      <edge source="Anderson .Paak" target="Silk Sonic" id="92" weight="9" />
+      <edge source="Lady Gaga" target="Bradley Cooper" id="93" weight="2" />
+      <edge source="Lady Gaga" target="Gesaffelstein" id="94" weight="1" />
+      <edge source="Lady Gaga" target="Colby O'Donis" id="95" weight="1" />
+      <edge source="Lady Gaga" target="Beyoncé" id="96" weight="1" />
+      <edge source="Lady Gaga" target="Christina Aguilera" id="97" weight="1" />
+      <edge source="Alan Walker" target="Sabrina Carpenter" id="98" weight="1" />
+      <edge source="Alan Walker" target="Farruko" id="99" weight="1" />
+      <edge source="Alan Walker" target="Ava Max" id="100" weight="2" />
+      <edge source="Alan Walker" target="Da Tweekaz" id="101" weight="1" />
+      <edge source="R3HAB" target="Zara Larsson" id="102" weight="1" />
+      <edge source="R3HAB" target="Ava Max" id="103" weight="1" />
+      <edge source="R3HAB" target="David Guetta" id="104" weight="1" />
+      <edge source="R3HAB" target="Bebe Rexha" id="105" weight="1" />
+      <edge source="Lewis Capaldi" target="Jessie Reyez" id="106" weight="1" />
+      <edge source="Lewis Capaldi" target="Future Humans" id="107" weight="1" />
+      <edge source="Lewis Capaldi" target="Steve Void" id="108" weight="1" />
+      <edge source="Lewis Capaldi" target="Madism" id="109" weight="1" />
+      <edge source="Jessie Reyez" target="Sam Smith" id="110" weight="2" />
+      <edge source="Jessie Reyez" target="Calvin Harris" id="111" weight="1" />
+      <edge source="Jessie Reyez" target="Original Koffee" id="112" weight="1" />
+      <edge source="Taylor Swift" target="Post Malone" id="113" weight="1" />
+      <edge source="Taylor Swift" target="Bon Iver" id="114" weight="1" />
+      <edge source="Taylor Swift" target="Ed Sheeran" id="115" weight="1" />
+      <edge source="Taylor Swift" target="Shawn Mendes" id="116" weight="1" />
+      <edge source="Post Malone" target="Justin Bieber" id="117" weight="1" />
+      <edge source="Post Malone" target="Clever" id="118" weight="1" />
+      <edge source="Post Malone" target="Beyoncé" id="119" weight="1" />
+      <edge source="Dua Lipa" target="DaBaby" id="120" weight="2" />
+      <edge source="Dua Lipa" target="Elton John" id="121" weight="4" />
+      <edge source="Dua Lipa" target="PNAU" id="122" weight="1" />
+      <edge source="Dua Lipa" target="Troye Sivan" id="123" weight="1" />
+      <edge source="Dua Lipa" target="JENNIE" id="124" weight="1" />
+      <edge source="Dua Lipa" target="BLACKPINK" id="125" weight="1" />
+      <edge source="Dua Lipa" target="Pierre de Maere" id="126" weight="1" />
+      <edge source="Dua Lipa" target="Megan Thee Stallion" id="127" weight="1" />
+      <edge source="Dua Lipa" target="Angèle" id="128" weight="2" />
+      <edge source="Dua Lipa" target="Adam Port" id="129" weight="1" />
+      <edge source="Dua Lipa" target="Chris Stapleton" id="130" weight="1" />
+      <edge source="Dua Lipa" target="Imanbek" id="131" weight="1" />
+      <edge source="Dua Lipa" target="Claptone" id="132" weight="1" />
+      <edge source="Dua Lipa" target="PS1" id="133" weight="1" />
+      <edge source="Dua Lipa" target="Miguel" id="134" weight="1" />
+      <edge source="Elton John" target="PNAU" id="135" weight="1" />
+      <edge source="Elton John" target="Claptone" id="136" weight="1" />
+      <edge source="Elton John" target="PS1" id="137" weight="1" />
+      <edge source="Elton John" target="WATT" id="138" weight="1" />
+      <edge source="Elton John" target="Yo-Yo Ma" id="139" weight="1" />
+      <edge source="Elton John" target="Robert Trujillo" id="140" weight="1" />
+      <edge source="Elton John" target="Chad Smith" id="141" weight="1" />
+      <edge source="PNAU" target="Troye Sivan" id="142" weight="1" />
+      <edge source="PNAU" target="Bebe Rexha" id="143" weight="1" />
+      <edge source="PNAU" target="Ozuna" id="144" weight="1" />
+      <edge source="Troye Sivan" target="Regard" id="145" weight="2" />
+      <edge source="Troye Sivan" target="Tate McRae" id="146" weight="2" />
+      <edge source="Troye Sivan" target="Ariana Grande" id="147" weight="1" />
+      <edge source="Troye Sivan" target="Martin Garrix" id="148" weight="1" />
+      <edge source="Troye Sivan" target="Charli xcx" id="149" weight="3" />
+      <edge source="Troye Sivan" target="xxtristanxo" id="150" weight="1" />
+      <edge source="Troye Sivan" target="Slowed Radio" id="151" weight="1" />
+      <edge source="Troye Sivan" target="Allday" id="152" weight="1" />
+      <edge source="Troye Sivan" target="Alex Hope" id="153" weight="1" />
+      <edge source="Troye Sivan" target="Topic" id="154" weight="1" />
+      <edge source="Troye Sivan" target="Alessia Cara" id="155" weight="1" />
+      <edge source="Troye Sivan" target="Betty Who" id="156" weight="1" />
+      <edge source="Troye Sivan" target="Lauv" id="157" weight="1" />
+      <edge source="Adam Port" target="Stryv" id="158" weight="1" />
+      <edge source="Adam Port" target="Camila Cabello" id="159" weight="1" />
+      <edge source="Adam Port" target="Keinemusik" id="160" weight="1" />
+      <edge source="Adam Port" target="Malachiii" id="161" weight="1" />
+      <edge source="Adam Port" target="Orso" id="162" weight="1" />
+      <edge source="Claptone" target="Ava Max" id="163" weight="1" />
+      <edge source="The Weeknd" target="Playboi Carti" id="164" weight="1" />
+      <edge source="The Weeknd" target="Daft Punk" id="165" weight="2" />
+      <edge source="The Weeknd" target="Anitta" id="166" weight="1" />
+      <edge source="The Weeknd" target="Gesaffelstein" id="167" weight="1" />
+      <edge source="The Weeknd" target="Lana Del Rey" id="168" weight="2" />
+      <edge source="The Weeknd" target="Travis Scott" id="169" weight="1" />
+      <edge source="The Weeknd" target="Florence + The Machine" id="170" weight="1" />
+      <edge source="The Weeknd" target="Justice" id="171" weight="1" />
+      <edge source="The Weeknd" target="Future" id="172" weight="1" />
+      <edge source="The Weeknd" target="Ariana Grande" id="173" weight="2" />
+      <edge source="The Weeknd" target="Kendrick Lamar" id="174" weight="1" />
+      <edge source="The Weeknd" target="Giorgio Moroder" id="175" weight="1" />
+      <edge source="The Weeknd" target="Doja Cat" id="176" weight="2" />
+      <edge source="Playboi Carti" target="Camila Cabello" id="177" weight="2" />
+      <edge source="Lana Del Rey" target="Bleachers" id="178" weight="1" />
+      <edge source="Lana Del Rey" target="Father John Misty" id="179" weight="1" />
+      <edge source="Lana Del Rey" target="Quavo" id="180" weight="1" />
+      <edge source="Lana Del Rey" target="SYML" id="181" weight="1" />
+      <edge source="Lana Del Rey" target="Tommy Genesis" id="182" weight="1" />
+      <edge source="Travis Scott" target="Florence + The Machine" id="183" weight="1" />
+      <edge source="Travis Scott" target="Chris Brown" id="184" weight="1" />
+      <edge source="Travis Scott" target="Justin Bieber" id="185" weight="1" />
+      <edge source="Future" target="Rihanna" id="186" weight="1" />
+      <edge source="Ariana Grande" target="Doja Cat" id="187" weight="1" />
+      <edge source="Ariana Grande" target="Zedd" id="188" weight="1" />
+      <edge source="Ariana Grande" target="Justin Bieber" id="189" weight="1" />
+      <edge source="Ariana Grande" target="Cynthia Erivo" id="190" weight="3" />
+      <edge source="Ariana Grande" target="Iggy Azalea" id="191" weight="1" />
+      <edge source="Ariana Grande" target="Wicked Movie Cast" id="192" weight="1" />
+      <edge source="Ariana Grande" target="Andy Nyman" id="193" weight="1" />
+      <edge source="Ariana Grande" target="Courtney-Mae Briggs" id="194" weight="1" />
+      <edge source="Ariana Grande" target="Jeff Goldblum" id="195" weight="1" />
+      <edge source="Ariana Grande" target="Sharon D. Clarke" id="196" weight="1" />
+      <edge source="Ariana Grande" target="Jenna Boyd" id="197" weight="1" />
+      <edge source="Ariana Grande" target="Jonathan Bailey" id="198" weight="1" />
+      <edge source="Ariana Grande" target="Ethan Slater" id="199" weight="1" />
+      <edge source="Ariana Grande" target="Marissa Bode" id="200" weight="1" />
+      <edge source="Ariana Grande" target="Nonna" id="201" weight="1" />
+      <edge source="Ariana Grande" target="Charli xcx" id="202" weight="2" />
+      <edge source="Kendrick Lamar" target="Beyoncé" id="203" weight="1" />
+      <edge source="LISA" target="Doja Cat" id="204" weight="1" />
+      <edge source="LISA" target="RAYE" id="205" weight="1" />
+      <edge source="Doja Cat" target="RAYE" id="206" weight="1" />
+      <edge source="Doja Cat" target="SZA" id="207" weight="2" />
+      <edge source="Doja Cat" target="Jack Harlow" id="208" weight="1" />
+      <edge source="Doja Cat" target="Konshens" id="209" weight="1" />
+      <edge source="Doja Cat" target="Rico Nasty" id="210" weight="1" />
+      <edge source="Doja Cat" target="Tyga" id="211" weight="2" />
+      <edge source="Doja Cat" target="Saweetie" id="212" weight="1" />
+      <edge source="Doja Cat" target="Smino" id="213" weight="1" />
+      <edge source="Doja Cat" target="JID" id="214" weight="1" />
+      <edge source="Doja Cat" target="21 Savage" id="215" weight="1" />
+      <edge source="Doja Cat" target="Bebe Rexha" id="216" weight="1" />
+      <edge source="Doja Cat" target="Tove Lo" id="217" weight="1" />
+      <edge source="RAYE" target="070 Shake" id="218" weight="4" />
+      <edge source="RAYE" target="cassö" id="219" weight="4" />
+      <edge source="RAYE" target="Valexus" id="220" weight="1" />
+      <edge source="RAYE" target="D-Block Europe" id="221" weight="4" />
+      <edge source="RAYE" target="Central Cee" id="222" weight="1" />
+      <edge source="RAYE" target="Disclosure" id="223" weight="1" />
+      <edge source="RAYE" target="Mahalia" id="224" weight="1" />
+      <edge source="RAYE" target="Da Beatfreakz" id="225" weight="1" />
+      <edge source="RAYE" target="Russ Millions" id="226" weight="1" />
+      <edge source="RAYE" target="wewantwraiths" id="227" weight="1" />
+      <edge source="RAYE" target="David Guetta" id="228" weight="3" />
+      <edge source="RAYE" target="Hypaton" id="229" weight="1" />
+      <edge source="RAYE" target="Riton" id="230" weight="1" />
+      <edge source="RAYE" target="Coi Leray" id="231" weight="1" />
+      <edge source="RAYE" target="The Heritage Orchestra" id="232" weight="6" />
+      <edge source="RAYE" target="MORTEN" id="233" weight="1" />
+      <edge source="RAYE" target="Joel Corry" id="234" weight="1" />
+      <edge source="RAYE" target="Hans Zimmer" id="235" weight="1" />
+      <edge source="SZA" target="Drake" id="236" weight="1" />
+      <edge source="SZA" target="Rihanna" id="237" weight="1" />
+      <edge source="SZA" target="Justin Bieber" id="238" weight="1" />
+      <edge source="Tyga" target="Kygo" id="239" weight="1" />
+      <edge source="Tyga" target="Zara Larsson" id="240" weight="1" />
+      <edge source="21 Savage" target="Drake" id="241" weight="3" />
+      <edge source="Zedd" target="Shawn Mendes" id="242" weight="1" />
+      <edge source="Justin Bieber" target="Ed Sheeran" id="243" weight="1" />
+      <edge source="Justin Bieber" target="Ludacris" id="244" weight="1" />
+      <edge source="Justin Bieber" target="Chance the Rapper" id="245" weight="3" />
+      <edge source="Justin Bieber" target="The Kid LAROI" id="246" weight="1" />
+      <edge source="Justin Bieber" target="Daniel Caesar" id="247" weight="1" />
+      <edge source="Justin Bieber" target="GIVĒON" id="248" weight="1" />
+      <edge source="Justin Bieber" target="Jaden" id="249" weight="1" />
+      <edge source="Justin Bieber" target="Quavo" id="250" weight="2" />
+      <edge source="Justin Bieber" target="Drake" id="251" weight="2" />
+      <edge source="Justin Bieber" target="Big Sean" id="252" weight="2" />
+      <edge source="Justin Bieber" target="Shawn Mendes" id="253" weight="2" />
+      <edge source="Justin Bieber" target="Clever" id="254" weight="1" />
+      <edge source="Cynthia Erivo" target="Michelle Yeoh" id="255" weight="1" />
+      <edge source="Cynthia Erivo" target="Jonathan Bailey" id="256" weight="1" />
+      <edge source="Cynthia Erivo" target="Ethan Slater" id="257" weight="1" />
+      <edge source="Cynthia Erivo" target="Marissa Bode" id="258" weight="1" />
+      <edge source="Wicked Movie Cast" target="Andy Nyman" id="259" weight="1" />
+      <edge source="Wicked Movie Cast" target="Courtney-Mae Briggs" id="260" weight="1" />
+      <edge source="Wicked Movie Cast" target="Jeff Goldblum" id="261" weight="1" />
+      <edge source="Wicked Movie Cast" target="Sharon D. Clarke" id="262" weight="1" />
+      <edge source="Wicked Movie Cast" target="Jenna Boyd" id="263" weight="1" />
+      <edge source="Andy Nyman" target="Courtney-Mae Briggs" id="264" weight="1" />
+      <edge source="Andy Nyman" target="Jeff Goldblum" id="265" weight="1" />
+      <edge source="Andy Nyman" target="Sharon D. Clarke" id="266" weight="1" />
+      <edge source="Andy Nyman" target="Jenna Boyd" id="267" weight="1" />
+      <edge source="Courtney-Mae Briggs" target="Jeff Goldblum" id="268" weight="1" />
+      <edge source="Courtney-Mae Briggs" target="Sharon D. Clarke" id="269" weight="1" />
+      <edge source="Courtney-Mae Briggs" target="Jenna Boyd" id="270" weight="1" />
+      <edge source="Jeff Goldblum" target="Sharon D. Clarke" id="271" weight="1" />
+      <edge source="Jeff Goldblum" target="Jenna Boyd" id="272" weight="1" />
+      <edge source="Sharon D. Clarke" target="Jenna Boyd" id="273" weight="1" />
+      <edge source="Jonathan Bailey" target="Ethan Slater" id="274" weight="1" />
+      <edge source="Jonathan Bailey" target="Marissa Bode" id="275" weight="1" />
+      <edge source="Ethan Slater" target="Marissa Bode" id="276" weight="1" />
+      <edge source="Billie Eilish" target="Charli xcx" id="277" weight="2" />
+      <edge source="Charli xcx" target="Lorde" id="278" weight="2" />
+      <edge source="Charli xcx" target="cupcakKe" id="279" weight="2" />
+      <edge source="Charli xcx" target="Sam Smith" id="280" weight="1" />
+      <edge source="Charli xcx" target="Big Freedia" id="281" weight="1" />
+      <edge source="Charli xcx" target="Brooke Candy" id="282" weight="1" />
+      <edge source="Charli xcx" target="Pabllo Vittar" id="283" weight="1" />
+      <edge source="Charli xcx" target="Addison Rae" id="284" weight="1" />
+      <edge source="Charli xcx" target="A. G. Cook" id="285" weight="1" />
+      <edge source="Charli xcx" target="Rina Sawayama" id="286" weight="1" />
+      <edge source="Charli xcx" target="Kesha" id="287" weight="1" />
+      <edge source="Charli xcx" target="Bb trickz" id="288" weight="1" />
+      <edge source="Ed Sheeran" target="Camila Cabello" id="289" weight="3" />
+      <edge source="Ed Sheeran" target="Khalid" id="290" weight="1" />
+      <edge source="Ed Sheeran" target="Luke Combs" id="291" weight="1" />
+      <edge source="Ed Sheeran" target="Stormzy" id="292" weight="1" />
+      <edge source="Ed Sheeran" target="Chance the Rapper" id="293" weight="1" />
+      <edge source="Ed Sheeran" target="PnB Rock" id="294" weight="1" />
+      <edge source="Ed Sheeran" target="Sam Smith" id="295" weight="1" />
+      <edge source="Camila Cabello" target="Young Thug" id="296" weight="1" />
+      <edge source="Camila Cabello" target="Shawn Mendes" id="297" weight="3" />
+      <edge source="Camila Cabello" target="Stryv" id="298" weight="1" />
+      <edge source="Camila Cabello" target="Keinemusik" id="299" weight="1" />
+      <edge source="Camila Cabello" target="Malachiii" id="300" weight="1" />
+      <edge source="Camila Cabello" target="Orso" id="301" weight="1" />
+      <edge source="Camila Cabello" target="Bazzi" id="302" weight="1" />
+      <edge source="Camila Cabello" target="Daddy Yankee" id="303" weight="1" />
+      <edge source="Camila Cabello" target="Lil Nas X" id="304" weight="1" />
+      <edge source="Camila Cabello" target="Alejandro Sanz" id="305" weight="1" />
+      <edge source="Camila Cabello" target="Drake" id="306" weight="1" />
+      <edge source="Camila Cabello" target="Maria Becerra" id="307" weight="1" />
+      <edge source="Camila Cabello" target="JT" id="308" weight="1" />
+      <edge source="Camila Cabello" target="Yung Miami" id="309" weight="1" />
+      <edge source="Camila Cabello" target="Eem Triplin" id="310" weight="1" />
+      <edge source="Camila Cabello" target="WILLOW" id="311" weight="1" />
+      <edge source="Camila Cabello" target="Myke Towers" id="312" weight="1" />
+      <edge source="Camila Cabello" target="Tainy" id="313" weight="1" />
+      <edge source="Camila Cabello" target="Major Lazer" id="314" weight="1" />
+      <edge source="Camila Cabello" target="Mark Ronson" id="315" weight="1" />
+      <edge source="Camila Cabello" target="Anna Kendrick" id="316" weight="1" />
+      <edge source="Camila Cabello" target="Justin Timberlake" id="317" weight="1" />
+      <edge source="Camila Cabello" target="Eric Andre" id="318" weight="1" />
+      <edge source="Camila Cabello" target="Daveed Diggs" id="319" weight="1" />
+      <edge source="Camila Cabello" target="Kid Cudi" id="320" weight="1" />
+      <edge source="Camila Cabello" target="Pharrell Williams" id="321" weight="1" />
+      <edge source="Khalid" target="Shawn Mendes" id="322" weight="1" />
+      <edge source="Khalid" target="Anne-Marie" id="323" weight="1" />
+      <edge source="Chance the Rapper" target="PnB Rock" id="324" weight="1" />
+      <edge source="Drake" target="PARTYNEXTDOOR" id="325" weight="7" />
+      <edge source="Drake" target="Yebba" id="326" weight="2" />
+      <edge source="Drake" target="Wizkid" id="327" weight="1" />
+      <edge source="Drake" target="Kyla" id="328" weight="1" />
+      <edge source="Drake" target="Chris Brown" id="329" weight="3" />
+      <edge source="Drake" target="GIVĒON" id="330" weight="1" />
+      <edge source="Drake" target="Rihanna" id="331" weight="4" />
+      <edge source="Drake" target="Pimmie" id="332" weight="1" />
+      <edge source="Drake" target="Yeat" id="333" weight="1" />
+      <edge source="Drake" target="Majid Jordan" id="334" weight="1" />
+      <edge source="Drake" target="Lil Durk" id="335" weight="1" />
+      <edge source="Drake" target="Lil Baby" id="336" weight="1" />
+      <edge source="Drake" target="J. Cole" id="337" weight="1" />
+      <edge source="Drake" target="Lil Wayne" id="338" weight="4" />
+      <edge source="PARTYNEXTDOOR" target="Yebba" id="339" weight="1" />
+      <edge source="PARTYNEXTDOOR" target="Pimmie" id="340" weight="1" />
+      <edge source="Yebba" target="Sam Smith" id="341" weight="1" />
+      <edge source="Wizkid" target="Kyla" id="342" weight="1" />
+      <edge source="Chris Brown" target="Lil Wayne" id="343" weight="2" />
+      <edge source="Chris Brown" target="Rihanna" id="344" weight="1" />
+      <edge source="GIVĒON" target="Daniel Caesar" id="345" weight="1" />
+      <edge source="Rihanna" target="JAY-Z" id="346" weight="2" />
+      <edge source="Rihanna" target="Calvin Harris" id="347" weight="3" />
+      <edge source="Rihanna" target="Paul McCartney" id="348" weight="1" />
+      <edge source="Rihanna" target="Mikky Ekko" id="349" weight="1" />
+      <edge source="Rihanna" target="Ne-Yo" id="350" weight="1" />
+      <edge source="Pharrell Williams" target="Calvin Harris" id="351" weight="1" />
+      <edge source="Pharrell Williams" target="Justin Timberlake" id="352" weight="1" />
+      <edge source="Pharrell Williams" target="Halsey" id="353" weight="1" />
+      <edge source="WATT" target="Yo-Yo Ma" id="354" weight="1" />
+      <edge source="WATT" target="Robert Trujillo" id="355" weight="1" />
+      <edge source="WATT" target="Chad Smith" id="356" weight="1" />
+      <edge source="Yo-Yo Ma" target="Robert Trujillo" id="357" weight="1" />
+      <edge source="Yo-Yo Ma" target="Chad Smith" id="358" weight="1" />
+      <edge source="Robert Trujillo" target="Chad Smith" id="359" weight="1" />
+      <edge source="cassö" target="Valexus" id="360" weight="1" />
+      <edge source="cassö" target="D-Block Europe" id="361" weight="4" />
+      <edge source="cassö" target="David Guetta" id="362" weight="1" />
+      <edge source="cassö" target="Hypaton" id="363" weight="1" />
+      <edge source="Valexus" target="D-Block Europe" id="364" weight="1" />
+      <edge source="D-Block Europe" target="David Guetta" id="365" weight="1" />
+      <edge source="D-Block Europe" target="Hypaton" id="366" weight="1" />
+      <edge source="Central Cee" target="PinkPantheress" id="367" weight="2" />
+      <edge source="Da Beatfreakz" target="Russ Millions" id="368" weight="1" />
+      <edge source="Da Beatfreakz" target="wewantwraiths" id="369" weight="1" />
+      <edge source="Russ Millions" target="wewantwraiths" id="370" weight="1" />
+      <edge source="David Guetta" target="Hypaton" id="371" weight="1" />
+      <edge source="David Guetta" target="MORTEN" id="372" weight="1" />
+      <edge source="David Guetta" target="Joel Corry" id="373" weight="1" />
+      <edge source="David Guetta" target="Zara Larsson" id="374" weight="2" />
+      <edge source="David Guetta" target="Anne-Marie" id="375" weight="8" />
+      <edge source="David Guetta" target="Coi Leray" id="376" weight="2" />
+      <edge source="David Guetta" target="Clean Bandit" id="377" weight="5" />
+      <edge source="David Guetta" target="Ruger" id="378" weight="1" />
+      <edge source="David Guetta" target="Alphaville" id="379" weight="2" />
+      <edge source="David Guetta" target="Ava Max" id="380" weight="2" />
+      <edge source="David Guetta" target="Bebe Rexha" id="381" weight="16" />
+      <edge source="David Guetta" target="Ty Dolla $ign" id="382" weight="1" />
+      <edge source="David Guetta" target="A Boogie Wit da Hoodie" id="383" weight="1" />
+      <edge source="David Guetta" target="Oliver Heldens" id="384" weight="1" />
+      <edge source="David Guetta" target="Tiësto" id="385" weight="1" />
+      <edge source="David Guetta" target="Alok" id="386" weight="1" />
+      <edge source="David Guetta" target="DJs From Mars" id="387" weight="1" />
+      <edge source="David Guetta" target="Cedric Gervais" id="388" weight="1" />
+      <edge source="David Guetta" target="Gabry Ponte" id="389" weight="1" />
+      <edge source="Coi Leray" target="Anne-Marie" id="390" weight="2" />
+      <edge source="Tate McRae" target="Flo Milli" id="391" weight="1" />
+      <edge source="Tate McRae" target="Tiësto" id="392" weight="1" />
+      <edge source="Tate McRae" target="The Kid LAROI" id="393" weight="2" />
+      <edge source="Tate McRae" target="Regard" id="394" weight="2" />
+      <edge source="Tate McRae" target="Topic" id="395" weight="1" />
+      <edge source="Tiësto" target="Ava Max" id="396" weight="3" />
+      <edge source="Tiësto" target="Robin Schulz" id="397" weight="1" />
+      <edge source="Tiësto" target="Bebe Rexha" id="398" weight="1" />
+      <edge source="Tiësto" target="Becky Hill" id="399" weight="1" />
+      <edge source="Tiësto" target="Chase &amp; Status" id="400" weight="1" />
+      <edge source="Regard" target="Topic" id="401" weight="1" />
+      <edge source="Martin Garrix" target="Tove Lo" id="402" weight="1" />
+      <edge source="xxtristanxo" target="Slowed Radio" id="403" weight="1" />
+      <edge source="Topic" target="Bebe Rexha" id="404" weight="1" />
+      <edge source="Topic" target="FRDY" id="405" weight="1" />
+      <edge source="Topic" target="HUGEL" id="406" weight="1" />
+      <edge source="Topic" target="Arash" id="407" weight="1" />
+      <edge source="Topic" target="Daecolm" id="408" weight="1" />
+      <edge source="Topic" target="Becky Hill" id="409" weight="1" />
+      <edge source="Alessia Cara" target="Lauv" id="410" weight="1" />
+      <edge source="cupcakKe" target="Big Freedia" id="411" weight="1" />
+      <edge source="cupcakKe" target="Brooke Candy" id="412" weight="1" />
+      <edge source="cupcakKe" target="Pabllo Vittar" id="413" weight="1" />
+      <edge source="Sam Smith" target="Normani" id="414" weight="1" />
+      <edge source="Sam Smith" target="Calvin Harris" id="415" weight="2" />
+      <edge source="Sam Smith" target="Burna Boy" id="416" weight="1" />
+      <edge source="Sam Smith" target="Aitana" id="417" weight="1" />
+      <edge source="Sam Smith" target="Alicia Keys" id="418" weight="1" />
+      <edge source="Sam Smith" target="Labrinth" id="419" weight="1" />
+      <edge source="Sam Smith" target="Felix Jaehn" id="420" weight="1" />
+      <edge source="Sam Smith" target="A$AP Rocky" id="421" weight="1" />
+      <edge source="Sam Smith" target="Original Koffee" id="422" weight="1" />
+      <edge source="Sam Smith" target="TAEYEON" id="423" weight="1" />
+      <edge source="Sam Smith" target="Hikaru Utada" id="424" weight="1" />
+      <edge source="Big Freedia" target="Brooke Candy" id="425" weight="1" />
+      <edge source="Big Freedia" target="Pabllo Vittar" id="426" weight="1" />
+      <edge source="Brooke Candy" target="Pabllo Vittar" id="427" weight="1" />
+      <edge source="Addison Rae" target="A. G. Cook" id="428" weight="1" />
+      <edge source="Sabrina Carpenter" target="Farruko" id="429" weight="1" />
+      <edge source="Sabrina Carpenter" target="Dolly Parton" id="430" weight="1" />
+      <edge source="Sabrina Carpenter" target="Charlie Puth" id="431" weight="1" />
+      <edge source="Sabrina Carpenter" target="Dan + Shay" id="432" weight="1" />
+      <edge source="Sabrina Carpenter" target="Zara Larsson" id="433" weight="1" />
+      <edge source="Dolly Parton" target="Beyoncé" id="434" weight="1" />
+      <edge source="Charlie Puth" target="Dan + Shay" id="435" weight="2" />
+      <edge source="Charlie Puth" target="Selena Gomez" id="436" weight="5" />
+      <edge source="Charlie Puth" target="Kehlani" id="437" weight="1" />
+      <edge source="Charlie Puth" target="Stray Kids" id="438" weight="1" />
+      <edge source="Charlie Puth" target="Wale" id="439" weight="1" />
+      <edge source="Charlie Puth" target="Wiz Khalifa" id="440" weight="2" />
+      <edge source="Charlie Puth" target="Sasha Alex Sloan" id="441" weight="1" />
+      <edge source="Charlie Puth" target="blackbear" id="442" weight="1" />
+      <edge source="Charlie Puth" target="DROELOE" id="443" weight="1" />
+      <edge source="Charlie Puth" target="Jung Kook" id="444" weight="1" />
+      <edge source="Charlie Puth" target="BTS" id="445" weight="1" />
+      <edge source="Charlie Puth" target="Boyz II Men" id="446" weight="1" />
+      <edge source="Charlie Puth" target="James Taylor" id="447" weight="1" />
+      <edge source="Charlie Puth" target="Mr. Collipark" id="448" weight="1" />
+      <edge source="Beyoncé" target="JAY-Z" id="449" weight="3" />
+      <edge source="Beyoncé" target="Shakira" id="450" weight="1" />
+      <edge source="Beyoncé" target="Sean Paul" id="451" weight="1" />
+      <edge source="Beyoncé" target="BEAM" id="452" weight="1" />
+      <edge source="Beyoncé" target="Shaboozey" id="453" weight="2" />
+      <edge source="Beyoncé" target="Linda Martell" id="454" weight="1" />
+      <edge source="Beyoncé" target="Tanner Adell" id="455" weight="1" />
+      <edge source="Beyoncé" target="Brittney Spencer" id="456" weight="1" />
+      <edge source="Beyoncé" target="Tiera Kennedy" id="457" weight="1" />
+      <edge source="Beyoncé" target="Reyna Roberts" id="458" weight="1" />
+      <edge source="Beyoncé" target="Shatta Wale" id="459" weight="1" />
+      <edge source="Beyoncé" target="Major Lazer" id="460" weight="1" />
+      <edge source="Beyoncé" target="Chimamanda Ngozi Adichie" id="461" weight="1" />
+      <edge source="Juice WRLD" target="Halsey" id="462" weight="1" />
+      <edge source="PinkPantheress" target="Ice Spice" id="463" weight="2" />
+      <edge source="PinkPantheress" target="Sam Gellaitry" id="464" weight="1" />
+      <edge source="PinkPantheress" target="LE SSERAFIM" id="465" weight="1" />
+      <edge source="PinkPantheress" target="Rema" id="466" weight="1" />
+      <edge source="PinkPantheress" target="Shygirl" id="467" weight="1" />
+      <edge source="PinkPantheress" target="Club Shy" id="468" weight="1" />
+      <edge source="PinkPantheress" target="Isabella Lovestory" id="469" weight="1" />
+      <edge source="PinkPantheress" target="WILLOW" id="470" weight="1" />
+      <edge source="PinkPantheress" target="Destroy Lonely" id="471" weight="1" />
+      <edge source="PinkPantheress" target="Kelela" id="472" weight="1" />
+      <edge source="Ice Spice" target="Cash Cobain" id="473" weight="1" />
+      <edge source="Ice Spice" target="Bay Swag" id="474" weight="1" />
+      <edge source="Cash Cobain" target="Bay Swag" id="475" weight="1" />
+      <edge source="Calvin Harris" target="Justin Timberlake" id="476" weight="1" />
+      <edge source="Calvin Harris" target="Halsey" id="477" weight="1" />
+      <edge source="Calvin Harris" target="Ellie Goulding" id="478" weight="1" />
+      <edge source="Selena Gomez" target="A$AP Rocky" id="479" weight="1" />
+      <edge source="Selena Gomez" target="benny blanco" id="480" weight="13" />
+      <edge source="Selena Gomez" target="J Balvin" id="481" weight="2" />
+      <edge source="Selena Gomez" target="Tainy" id="482" weight="2" />
+      <edge source="Selena Gomez" target="DROELOE" id="483" weight="1" />
+      <edge source="Selena Gomez" target="Mr. Collipark" id="484" weight="1" />
+      <edge source="benny blanco" target="J Balvin" id="485" weight="2" />
+      <edge source="benny blanco" target="Tainy" id="486" weight="2" />
+      <edge source="J Balvin" target="Tainy" id="487" weight="2" />
+      <edge source="Tainy" target="Myke Towers" id="488" weight="1" />
+      <edge source="Quavo" target="Bebe Rexha" id="489" weight="1" />
+      <edge source="Big Sean" target="Ellie Goulding" id="490" weight="2" />
+      <edge source="Shawn Mendes" target="Camilo" id="491" weight="1" />
+      <edge source="Sean Paul" target="Clean Bandit" id="492" weight="1" />
+      <edge source="Sean Paul" target="Anne-Marie" id="493" weight="1" />
+      <edge source="Shaboozey" target="Linda Martell" id="494" weight="1" />
+      <edge source="Tanner Adell" target="Brittney Spencer" id="495" weight="1" />
+      <edge source="Tanner Adell" target="Tiera Kennedy" id="496" weight="1" />
+      <edge source="Tanner Adell" target="Reyna Roberts" id="497" weight="1" />
+      <edge source="Tanner Adell" target="Clean Bandit" id="498" weight="1" />
+      <edge source="Tanner Adell" target="Anne-Marie" id="499" weight="1" />
+      <edge source="Brittney Spencer" target="Tiera Kennedy" id="500" weight="1" />
+      <edge source="Brittney Spencer" target="Reyna Roberts" id="501" weight="1" />
+      <edge source="Tiera Kennedy" target="Reyna Roberts" id="502" weight="1" />
+      <edge source="Shatta Wale" target="Major Lazer" id="503" weight="1" />
+      <edge source="Stryv" target="Keinemusik" id="504" weight="1" />
+      <edge source="Stryv" target="Malachiii" id="505" weight="1" />
+      <edge source="Stryv" target="Orso" id="506" weight="1" />
+      <edge source="Keinemusik" target="Malachiii" id="507" weight="1" />
+      <edge source="Keinemusik" target="Orso" id="508" weight="1" />
+      <edge source="Malachiii" target="Orso" id="509" weight="1" />
+      <edge source="JT" target="Yung Miami" id="510" weight="1" />
+      <edge source="Anna Kendrick" target="Justin Timberlake" id="511" weight="1" />
+      <edge source="Anna Kendrick" target="Eric Andre" id="512" weight="1" />
+      <edge source="Anna Kendrick" target="Daveed Diggs" id="513" weight="1" />
+      <edge source="Anna Kendrick" target="Kid Cudi" id="514" weight="1" />
+      <edge source="Justin Timberlake" target="Eric Andre" id="515" weight="1" />
+      <edge source="Justin Timberlake" target="Daveed Diggs" id="516" weight="1" />
+      <edge source="Justin Timberlake" target="Kid Cudi" id="517" weight="1" />
+      <edge source="Justin Timberlake" target="Halsey" id="518" weight="1" />
+      <edge source="Eric Andre" target="Daveed Diggs" id="519" weight="1" />
+      <edge source="Eric Andre" target="Kid Cudi" id="520" weight="1" />
+      <edge source="Daveed Diggs" target="Kid Cudi" id="521" weight="1" />
+      <edge source="The Chainsmokers" target="Halsey" id="522" weight="1" />
+      <edge source="Halsey" target="SUGA" id="523" weight="1" />
+      <edge source="Halsey" target="Lauren Jauregui" id="524" weight="1" />
+      <edge source="Halsey" target="ARTY" id="525" weight="1" />
+      <edge source="Halsey" target="Audien" id="526" weight="1" />
+      <edge source="Halsey" target="ILLENIUM" id="527" weight="2" />
+      <edge source="Zara Larsson" target="Clean Bandit" id="528" weight="1" />
+      <edge source="Zara Larsson" target="Alesso" id="529" weight="1" />
+      <edge source="Zara Larsson" target="MNEK" id="530" weight="1" />
+      <edge source="Zara Larsson" target="Kygo" id="531" weight="1" />
+      <edge source="Zara Larsson" target="Ty Dolla $ign" id="532" weight="1" />
+      <edge source="Zara Larsson" target="Don Diablo" id="533" weight="1" />
+      <edge source="Zara Larsson" target="Alok" id="534" weight="1" />
+      <edge source="Zara Larsson" target="Gorgon City" id="535" weight="1" />
+      <edge source="Clean Bandit" target="Anne-Marie" id="536" weight="7" />
+      <edge source="Clean Bandit" target="Ruger" id="537" weight="1" />
+      <edge source="Alesso" target="Becky Hill" id="538" weight="1" />
+      <edge source="Kygo" target="Ava Max" id="539" weight="1" />
+      <edge source="Ty Dolla $ign" target="Bebe Rexha" id="540" weight="1" />
+      <edge source="Ty Dolla $ign" target="A Boogie Wit da Hoodie" id="541" weight="1" />
+      <edge source="Alok" target="Ava Max" id="542" weight="1" />
+      <edge source="Alok" target="Bebe Rexha" id="543" weight="3" />
+      <edge source="Alok" target="Ben Nicky" id="544" weight="1" />
+      <edge source="Alok" target="Dr Phunk" id="545" weight="1" />
+      <edge source="Alok" target="Dimitri Vegas &amp; Like Mike" id="546" weight="1" />
+      <edge source="Alok" target="Sigala" id="547" weight="1" />
+      <edge source="Alok" target="Ellie Goulding" id="548" weight="1" />
+      <edge source="Alok" target="Ilkay Sencan" id="549" weight="1" />
+      <edge source="Alok" target="Tove Lo" id="550" weight="1" />
+      <edge source="Conan Gray" target="Lauv" id="551" weight="1" />
+      <edge source="Lauv" target="LANY" id="552" weight="1" />
+      <edge source="Lauv" target="BTS" id="553" weight="2" />
+      <edge source="Lauv" target="Anne-Marie" id="554" weight="1" />
+      <edge source="Lauv" target="LAY" id="555" weight="1" />
+      <edge source="Lauv" target="Jeremy Zucker" id="556" weight="1" />
+      <edge source="Lauv" target="Alexander 23" id="557" weight="1" />
+      <edge source="Lauv" target="Bella Poarch" id="558" weight="1" />
+      <edge source="Lauv" target="Miquela" id="559" weight="1" />
+      <edge source="Lauv" target="TWICE" id="560" weight="1" />
+      <edge source="Lauv" target="Ryan Riback" id="561" weight="1" />
+      <edge source="Wiz Khalifa" target="Tove Lo" id="562" weight="1" />
+      <edge source="Jung Kook" target="BTS" id="563" weight="1" />
+      <edge source="Anne-Marie" target="Shania Twain" id="564" weight="3" />
+      <edge source="Anne-Marie" target="Niall Horan" id="565" weight="3" />
+      <edge source="Anne-Marie" target="Aitch" id="566" weight="2" />
+      <edge source="Anne-Marie" target="Little Mix" id="567" weight="2" />
+      <edge source="Anne-Marie" target="NEIKED" id="568" weight="1" />
+      <edge source="Anne-Marie" target="Latto" id="569" weight="1" />
+      <edge source="Anne-Marie" target="KSI" id="570" weight="1" />
+      <edge source="Anne-Marie" target="Digital Farm Animals" id="571" weight="1" />
+      <edge source="Anne-Marie" target="SEVENTEEN" id="572" weight="1" />
+      <edge source="Anne-Marie" target="MINNIE" id="573" weight="1" />
+      <edge source="Anne-Marie" target="(G)I-DLE" id="574" weight="1" />
+      <edge source="Anne-Marie" target="Nicholas Galitzine" id="575" weight="1" />
+      <edge source="Anne-Marie" target="Diljit Dosanjh" id="576" weight="1" />
+      <edge source="Anne-Marie" target="Intense" id="577" weight="1" />
+      <edge source="Anne-Marie" target="ALTÉGO" id="578" weight="1" />
+      <edge source="Anne-Marie" target="Ruger" id="579" weight="1" />
+      <edge source="Shania Twain" target="ALTÉGO" id="580" weight="1" />
+      <edge source="Niall Horan" target="Ashe" id="581" weight="1" />
+      <edge source="Niall Horan" target="Maren Morris" id="582" weight="1" />
+      <edge source="NEIKED" target="Latto" id="583" weight="1" />
+      <edge source="KSI" target="Digital Farm Animals" id="584" weight="1" />
+      <edge source="MINNIE" target="(G)I-DLE" id="585" weight="1" />
+      <edge source="(G)I-DLE" target="K/DA" id="586" weight="2" />
+      <edge source="(G)I-DLE" target="Madison Beer" id="587" weight="2" />
+      <edge source="(G)I-DLE" target="Jaira Burns" id="588" weight="2" />
+      <edge source="(G)I-DLE" target="League of Legends" id="589" weight="2" />
+      <edge source="(G)I-DLE" target="Lexie Liu" id="590" weight="1" />
+      <edge source="(G)I-DLE" target="Seraphine" id="591" weight="1" />
+      <edge source="Diljit Dosanjh" target="Intense" id="592" weight="1" />
+      <edge source="Madison Beer" target="K/DA" id="593" weight="2" />
+      <edge source="Madison Beer" target="Jaira Burns" id="594" weight="2" />
+      <edge source="Madison Beer" target="League of Legends" id="595" weight="2" />
+      <edge source="Madison Beer" target="Lexie Liu" id="596" weight="1" />
+      <edge source="Madison Beer" target="Seraphine" id="597" weight="1" />
+      <edge source="Madison Beer" target="Offset" id="598" weight="1" />
+      <edge source="Madison Beer" target="Jax Jones" id="599" weight="1" />
+      <edge source="Madison Beer" target="Martin Solveig" id="600" weight="1" />
+      <edge source="Madison Beer" target="Europa" id="601" weight="1" />
+      <edge source="K/DA" target="Jaira Burns" id="602" weight="2" />
+      <edge source="K/DA" target="League of Legends" id="603" weight="2" />
+      <edge source="K/DA" target="Lexie Liu" id="604" weight="1" />
+      <edge source="K/DA" target="Seraphine" id="605" weight="1" />
+      <edge source="Jaira Burns" target="League of Legends" id="606" weight="2" />
+      <edge source="Jaira Burns" target="Lexie Liu" id="607" weight="1" />
+      <edge source="Jaira Burns" target="Seraphine" id="608" weight="1" />
+      <edge source="League of Legends" target="Lexie Liu" id="609" weight="1" />
+      <edge source="League of Legends" target="Seraphine" id="610" weight="1" />
+      <edge source="Lexie Liu" target="Seraphine" id="611" weight="1" />
+      <edge source="Jax Jones" target="Martin Solveig" id="612" weight="1" />
+      <edge source="Jax Jones" target="Europa" id="613" weight="1" />
+      <edge source="Jax Jones" target="Tove Lo" id="614" weight="1" />
+      <edge source="Martin Solveig" target="Europa" id="615" weight="1" />
+      <edge source="Alphaville" target="Ava Max" id="616" weight="2" />
+      <edge source="Ava Max" target="AJ Mitchell" id="617" weight="1" />
+      <edge source="Ava Max" target="ENHYPEN" id="618" weight="1" />
+      <edge source="Ava Max" target="Pablo Alborán" id="619" weight="1" />
+      <edge source="Ava Max" target="Jonas Blue" id="620" weight="1" />
+      <edge source="Ava Max" target="Da Tweekaz" id="621" weight="1" />
+      <edge source="Ava Max" target="Robin Schulz" id="622" weight="1" />
+      <edge source="Lauren Spencer Smith" target="GAYLE" id="623" weight="1" />
+      <edge source="Lauren Spencer Smith" target="Em Beihold" id="624" weight="1" />
+      <edge source="GAYLE" target="Em Beihold" id="625" weight="1" />
+      <edge source="Shygirl" target="Club Shy" id="626" weight="1" />
+      <edge source="Shygirl" target="Isabella Lovestory" id="627" weight="1" />
+      <edge source="Club Shy" target="Isabella Lovestory" id="628" weight="1" />
+      <edge source="Bebe Rexha" target="Florida Georgia Line" id="629" weight="1" />
+      <edge source="Bebe Rexha" target="Loud Luxury" id="630" weight="1" />
+      <edge source="Bebe Rexha" target="Two Friends" id="631" weight="1" />
+      <edge source="Bebe Rexha" target="Nathan Dawe" id="632" weight="1" />
+      <edge source="Bebe Rexha" target="A Boogie Wit da Hoodie" id="633" weight="1" />
+      <edge source="Bebe Rexha" target="Ben Nicky" id="634" weight="1" />
+      <edge source="Bebe Rexha" target="Dr Phunk" id="635" weight="1" />
+      <edge source="Bebe Rexha" target="Dimitri Vegas &amp; Like Mike" id="636" weight="1" />
+      <edge source="Bebe Rexha" target="Oliver Heldens" id="637" weight="1" />
+      <edge source="Bebe Rexha" target="DJs From Mars" id="638" weight="1" />
+      <edge source="Bebe Rexha" target="Masked Wolf" id="639" weight="1" />
+      <edge source="Bebe Rexha" target="FRDY" id="640" weight="1" />
+      <edge source="Bebe Rexha" target="Tory Lanez" id="641" weight="1" />
+      <edge source="Bebe Rexha" target="Ozuna" id="642" weight="1" />
+      <edge source="Bebe Rexha" target="Travis Barker" id="643" weight="1" />
+      <edge source="Bebe Rexha" target="Cedric Gervais" id="644" weight="1" />
+      <edge source="Bebe Rexha" target="Gabry Ponte" id="645" weight="1" />
+      <edge source="Loud Luxury" target="Two Friends" id="646" weight="1" />
+      <edge source="Ben Nicky" target="Dr Phunk" id="647" weight="1" />
+      <edge source="Ben Nicky" target="Dimitri Vegas &amp; Like Mike" id="648" weight="1" />
+      <edge source="Ben Nicky" target="Becky Hill" id="649" weight="1" />
+      <edge source="Dr Phunk" target="Dimitri Vegas &amp; Like Mike" id="650" weight="1" />
+      <edge source="Ellie Goulding" target="Anyma" id="651" weight="3" />
+      <edge source="Ellie Goulding" target="Sigala" id="652" weight="1" />
+      <edge source="Ellie Goulding" target="Speed Radio" id="653" weight="1" />
+      <edge source="Ellie Goulding" target="John Summit" id="654" weight="1" />
+      <edge source="Ellie Goulding" target="southstar" id="655" weight="1" />
+      <edge source="Ellie Goulding" target="Four Tet" id="656" weight="1" />
+      <edge source="Anyma" target="John Summit" id="657" weight="1" />
+      <edge source="HUGEL" target="Arash" id="658" weight="1" />
+      <edge source="HUGEL" target="Daecolm" id="659" weight="1" />
+      <edge source="Arash" target="Daecolm" id="660" weight="1" />
+      <edge source="Jeremy Zucker" target="Alexander 23" id="661" weight="1" />
+      <edge source="Becky Hill" target="Chase &amp; Status" id="662" weight="3" />
+      <edge source="Becky Hill" target="Andy C" id="663" weight="4" />
+      <edge source="Becky Hill" target="Sonny Fodera" id="664" weight="2" />
+      <edge source="Becky Hill" target="Lewis Thompson" id="665" weight="2" />
+      <edge source="Becky Hill" target="Zerb" id="666" weight="1" />
+      <edge source="Becky Hill" target="Shift K3Y" id="667" weight="1" />
+      <edge source="Becky Hill" target="SHY FX" id="668" weight="1" />
+      <edge source="Becky Hill" target="Mr. Williamz" id="669" weight="1" />
+      <edge source="Becky Hill" target="Self Esteem" id="670" weight="2" />
+      <edge source="Becky Hill" target="Skepsis" id="671" weight="1" />
+      <edge source="Becky Hill" target="Songer" id="672" weight="1" />
+      <edge source="Becky Hill" target="220 KID" id="673" weight="1" />
+      <edge source="Becky Hill" target="S1mba" id="674" weight="1" />
+      <edge source="Becky Hill" target="RILEASA" id="675" weight="1" />
+      <edge source="Becky Hill" target="Daire" id="676" weight="1" />
+      <edge source="Becky Hill" target="Alcemist" id="677" weight="1" />
+      <edge source="Becky Hill" target="Disrupta" id="678" weight="1" />
+      <edge source="Andy C" target="Disrupta" id="679" weight="1" />
+      <edge source="SHY FX" target="Mr. Williamz" id="680" weight="1" />
+      <edge source="Tove Lo" target="Hippie Sabotage" id="681" weight="2" />
+      <edge source="Tove Lo" target="SG Lewis" id="682" weight="5" />
+      <edge source="Tove Lo" target="Ilkay Sencan" id="683" weight="1" />
+      <edge source="Tove Lo" target="Nelly Furtado" id="684" weight="1" />
+      <edge source="Tove Lo" target="ZAAC" id="685" weight="1" />
+      <edge source="Tove Lo" target="Dom Dolla" id="686" weight="1" />
+      <edge source="Tove Lo" target="Partiboi69" id="687" weight="1" />
+      <edge source="Tove Lo" target="X CLUB." id="688" weight="1" />
+      <edge source="Tove Lo" target="Channel Tres" id="689" weight="1" />
+      <edge source="Tove Lo" target="Kylie Minogue" id="690" weight="1" />
+      <edge source="Tove Lo" target="Daye Jack" id="691" weight="1" />
+      <edge source="SG Lewis" target="Nelly Furtado" id="692" weight="1" />
+      <edge source="Dom Dolla" target="Partiboi69" id="693" weight="1" />
+      <edge source="Dom Dolla" target="X CLUB." id="694" weight="1" />
+      <edge source="Partiboi69" target="X CLUB." id="695" weight="1" />
+    </edges>
+  </graph>
+</gexf>

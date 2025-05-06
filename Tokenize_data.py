@@ -5,7 +5,7 @@ from nltk.corpus import stopwords
 import os
 
 # Paths
-raw_csv = "DATA/spotify_genius_data.csv"                 
+raw_csv = "DATA/spotify_genius_data_noduplicates.csv"                 
 out_csv = "DATA/tokenized_data.csv"   
 
 # download / load stopwords
