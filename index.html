@@ -143,6 +143,45 @@
       opacity: 1;
       transform: translateY(0);
     }
+
+    /* Communities section styling */
+    .community-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    .community-card {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    .community-card h3 {
+      color: var(--clr-secondary);
+      margin-bottom: 0.5rem;
+    }
+    .community-card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .community-card ul li {
+      margin-bottom: 0.5rem;
+    }
+    .community-card ul ul {
+      padding-left: 1rem;
+    }
+    .word-clouds {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .word-clouds img {
+      width: 32%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
   </style>
 </head>
 <body>
@@ -188,6 +227,66 @@
     <section id="graph" class="reveal">
       <h2>Interactive 360° Graph</h2>
       <video src="web/assets/new_graph2.webm" autoplay loop muted playsinline></video>
+    </section>
+
+    <section id="communities">
+      <h2>Detected Communities</h2>
+      <p>We identified communities in the network using <code>from networkx.algorithms import community</code>.</p>
+      <div class="community-cards">
+        <div class="community-card">
+          <h3>Community 0</h3>
+          <ul>
+            <li><strong>Size:</strong> 62 artists</li>
+            <li><strong>Collaborations:</strong> 91</li>
+            <li><strong>Top artists by degree:</strong>
+              <ul>
+                <li>Drake — degree: 38</li>
+                <li>Nicki Minaj — degree: 27</li>
+                <li>Beyoncé — degree: 19</li>
+                <li>The Weeknd — degree: 14</li>
+                <li>Doja Cat — degree: 14</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="community-card">
+          <h3>Community 1</h3>
+          <ul>
+            <li><strong>Size:</strong> 56 artists</li>
+            <li><strong>Collaborations:</strong> 93</li>
+            <li><strong>Top artists by degree:</strong>
+              <ul>
+                <li>David Guetta — degree: 47</li>
+                <li>Anne-Marie — degree: 39</li>
+                <li>Bebe Rexha — degree: 37</li>
+                <li>Ava Max — degree: 18</li>
+                <li>Clean Bandit — degree: 16</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="community-card">
+          <h3>Community 2</h3>
+          <ul>
+            <li><strong>Size:</strong> 42 artists</li>
+            <li><strong>Collaborations:</strong> 77</li>
+            <li><strong>Top artists by degree:</strong>
+              <ul>
+                <li>Charli xcx — degree: 19</li>
+                <li>Ariana Grande — degree: 18</li>
+                <li>Troye Sivan — degree: 14</li>
+                <li>Tate McRae — degree: 8</li>
+                <li>Cynthia Erivo — degree: 7</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="word-clouds">
+        <img src="web/assets/Word_cloud_com0.png" alt="Word Cloud Community 0">
+        <img src="web/assets/Word_cloud_com1.png" alt="Word Cloud Community 1">
+        <img src="web/assets/Word_cloud_com2.png" alt="Word Cloud Community 2">
+      </div>
     </section>
   </main>
 
