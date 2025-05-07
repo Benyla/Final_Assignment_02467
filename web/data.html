@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Artist Collaboration Network</title>
+  <title>Data • Artist Collaboration Network</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -50,7 +50,8 @@
     header {
       position: relative;
       height: 30vh;
-      background: url('assets/placeholder-bg.jpg') center/cover no-repeat;
+      /* swap in your grey network figure here */
+      background: url('assets/network-figure-grey.png') center/cover no-repeat;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -63,7 +64,7 @@
     }
     header h1 {
       position: relative;
-      font-size: 3rem;
+      font-size: 2.5rem;
       color: #fff;
       z-index: 1;
       text-transform: uppercase;
@@ -71,52 +72,31 @@
       animation: fadeInDown 1s ease-out;
     }
     main {
-      max-width: 1200px;
+      max-width: 900px;
       margin: auto;
       padding: 2rem 1rem;
     }
     section {
-      margin: 4rem 0;
+      margin: 3rem 0;
     }
-    .facts {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 2rem;
-    }
-    .fact-card {
-      background: #fff;
-      padding: 1.5rem;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-      text-align: center;
-      transition: transform 0.3s;
-    }
-    .fact-card:hover {
-      transform: translateY(-5px);
-    }
-    .fact-card h3 {
-      font-size: 2rem;
-      color: var(--clr-primary);
-      margin-bottom: 0.5rem;
-    }
-    .fact-card p {
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
       font-size: 1rem;
-      color: var(--clr-text);
+      font-weight: 600;
+      color: #fff;
+      background: var(--clr-primary);
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
     }
-    #graph {
-      position: relative;
-      height: 0;
-      padding-top: 56.25%; /* 16:9 aspect */
-      overflow: hidden;
+    .btn:hover {
+      background: darken(var(--clr-primary), 10%);
     }
-    #graph video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border-radius: 12px;
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    form {
+      margin-bottom: 1.5rem;
     }
     footer {
       text-align: center;
@@ -157,37 +137,38 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- Hero Section with Grey Network Figure -->
   <header>
-    <h1>Artist Collaboration Network</h1>
+    <h1>Data</h1>
   </header>
 
   <main>
-    <section id="data" class="reveal">
+    <!-- About the Data -->
+    <section id="about-data" class="reveal">
       <h2>About the Data</h2>
-      <div class="facts">
-        <div class="fact-card">
-          <h3>418</h3>
-          <p>Unique Artists</p>
-        </div>
-        <div class="fact-card">
-          <h3>696</h3>
-          <p>Collaborations</p>
-        </div>
-        <div class="fact-card">
-          <h3>4.54</h3>
-          <p>Average degree</p>
-        </div>
-        <div class="fact-card">
-          <h3>2005</h3>
-          <p>Earliest Release Year</p>
-        </div>
-      </div>
+      <p>
+        <!-- Placeholder: replace with your real description -->
+        Here you’ll find the core CSV exports that power the Artist Collaboration Network:
+        artist identities, edge lists of collaborations, and any supplemental metadata—
+        ready for you to download and explore in your own analyses.
+      </p>
     </section>
 
-    <section id="graph" class="reveal">
-      <h2>Interactive 360° Graph</h2>
-      <video src="assets/new_graph2.webm" autoplay loop muted playsinline></video>
+    <!-- Download Forms -->
+    <section id="download-data" class="reveal">
+      <h2>Download CSVs</h2>
+
+      <form action="assets/artists.csv" method="get">
+        <button class="btn" type="submit">Download <code>artists.csv</code></button>
+      </form>
+
+      <form action="assets/collaborations.csv" method="get">
+        <button class="btn" type="submit">Download <code>collaborations.csv</code></button>
+      </form>
+
+      <form action="assets/metadata.csv" method="get">
+        <button class="btn" type="submit">Download <code>metadata.csv</code></button>
+      </form>
     </section>
   </main>
 
@@ -196,18 +177,18 @@
   </footer>
 
   <script>
-    // Simple scroll reveal
+    // Scroll-reveal
     document.addEventListener('DOMContentLoaded', () => {
       const reveals = document.querySelectorAll('.reveal');
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('active');
-            observer.unobserve(entry.target);
+      const obs = new IntersectionObserver((entries, o) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            e.target.classList.add('active');
+            o.unobserve(e.target);
           }
         });
       }, { threshold: 0.2 });
-      reveals.forEach(el => observer.observe(el));
+      reveals.forEach(r => obs.observe(r));
     });
   </script>
 </body>
