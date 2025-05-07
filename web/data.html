@@ -147,10 +147,7 @@
     <section id="about-data" class="reveal">
       <h2>About the Data</h2>
       <p>
-        <!-- Placeholder: replace with your real description -->
-        Here you’ll find the core CSV exports that power the Artist Collaboration Network:
-        artist identities, edge lists of collaborations, and any supplemental metadata—
-        ready for you to download and explore in your own analyses.
+        Below you can download the key datasets that underpin the Artist Collaboration Network. These include the core dataset containing songs, metadata, and lyrics; a file with community assignments found through network analysis; and a tokenized version of the lyrics with <code>song_id</code> references linking back to the core dataset.
       </p>
     </section>
 
@@ -158,16 +155,16 @@
     <section id="download-data" class="reveal">
       <h2>Download CSVs</h2>
 
-      <form action="assets/artists.csv" method="get">
-        <button class="btn" type="submit">Download <code>artists.csv</code></button>
+      <form action="../DATA/spotify_genius_data.csv" method="get">
+        <button class="btn" type="submit">Download <code>All Songs + Metadata</code></button>
       </form>
 
-      <form action="assets/collaborations.csv" method="get">
-        <button class="btn" type="submit">Download <code>collaborations.csv</code></button>
+      <form action="../DATA/communities.csv" method="get">
+        <button class="btn" type="submit">Download <code>Detected Communities</code></button>
       </form>
 
-      <form action="assets/metadata.csv" method="get">
-        <button class="btn" type="submit">Download <code>metadata.csv</code></button>
+      <form action="../DATA/tokenized_data.csv" method="get">
+        <button class="btn" type="submit">Download <code>Tokenized Lyrics</code></button>
       </form>
     </section>
   </main>

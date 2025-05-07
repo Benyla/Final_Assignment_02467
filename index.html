@@ -78,10 +78,14 @@
     section {
       margin: 4rem 0;
     }
+    section h2 {
+      text-align: center;
+    }
     .facts {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 2rem;
+      margin-top: 2rem;
     }
     .fact-card {
       background: #fff;
@@ -93,6 +97,10 @@
     }
     .fact-card:hover {
       transform: translateY(-5px);
+    }
+    .community-card:hover {
+      transform: translateY(-5px) rotateY(-2deg);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
     }
     .fact-card h3 {
       font-size: 2rem;
@@ -150,12 +158,15 @@
       grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 2rem;
       margin-top: 1rem;
+      perspective: 800px;
     }
     .community-card {
       background: #fff;
       padding: 1rem;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transform-style: preserve-3d;
+      transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
     }
     .community-card h3 {
       color: var(--clr-secondary);
@@ -181,6 +192,43 @@
       width: 32%;
       border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    /* Community visualization images */
+    .community-collabs {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .community-collabs img {
+      width: 32%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+      transform-origin: center center;
+      cursor: zoom-in;
+    }
+    .community-collabs img:hover {
+      transform: scale(2.5);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      z-index: 999;
+      cursor: zoom-out;
+    }
+    /* Placeholder description boxes */
+    .collab-descriptions {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .desc-box {
+      flex: 1;
+      background: #fff;
+      border: 1px dashed #ccc;
+      border-radius: 8px;
+      padding: 1rem;
+      min-height: 120px;
     }
   </style>
 </head>
@@ -215,23 +263,24 @@
         </div>
         <div class="fact-card">
           <h3>4.54</h3>
-          <p>Average degree</p>
+          <p>Average Degree</p>
         </div>
         <div class="fact-card">
-          <h3>2005</h3>
-          <p>Earliest Release Year</p>
+          <h3>0.008</h3>
+          <p>Network Density</p>
         </div>
       </div>
     </section>
 
     <section id="graph" class="reveal">
-      <h2>Interactive 360° Graph</h2>
+      <h2>Illustration of the artist network</h2>
       <video src="web/assets/new_graph2.webm" autoplay loop muted playsinline></video>
     </section>
 
     <section id="communities">
-      <h2>Detected Communities</h2>
+      <h2>Communities</h2>
       <p>We identified communities in the network using <code>from networkx.algorithms import community</code>.</p>
+      <p>These communities represent clusters of artists who frequently collaborate with each other, highlighting tightly-knit groups in the music collaboration network. This allows us to understand sub-genres, influence clusters, and artist alliances over time.</p>
       <div class="community-cards">
         <div class="community-card">
           <h3>Community 0</h3>
@@ -269,14 +318,14 @@
           <h3>Community 2</h3>
           <ul>
             <li><strong>Size:</strong> 42 artists</li>
-            <li><strong>Collaborations:</strong> 77</li>
+            <li><strong>Collaborations:</strong> 72</li>
             <li><strong>Top artists by degree:</strong>
               <ul>
-                <li>Charli xcx — degree: 19</li>
-                <li>Ariana Grande — degree: 18</li>
-                <li>Troye Sivan — degree: 14</li>
-                <li>Tate McRae — degree: 8</li>
-                <li>Cynthia Erivo — degree: 7</li>
+                <li>Camila Cabello — degree: 30</li>
+                <li>Justin Bieber — degree: 14</li>
+                <li>Ed Sheeran — degree: 11</li>
+                <li>Shawn Mendes — degree: 8</li>
+                <li>Justin Timberlake — degree: 6</li>
               </ul>
             </li>
           </ul>
@@ -285,7 +334,27 @@
       <div class="word-clouds">
         <img src="web/assets/Word_cloud_com0.png" alt="Word Cloud Community 0">
         <img src="web/assets/Word_cloud_com1.png" alt="Word Cloud Community 1">
-        <img src="web/assets/Word_cloud_com2.png" alt="Word Cloud Community 2">
+        <img src="web/assets/Word_cloud_com2_new.png" alt="Word Cloud Community 2">
+      </div>
+      <div class="community-collabs">
+        <img src="web/assets/collab_0.png" alt="Community 0 Visualization">
+        <img src="web/assets/collab_1.png" alt="Community 1 Visualization">
+        <img src="web/assets/collab_2.png" alt="Community 2 Visualization">
+      </div>
+      <div class="collab-descriptions">
+        <div class="desc-box"><p>Placeholder description for Community 0 visualization. Write something about this being a rapper community - clearly seen in the word cloud xd</p></div>
+        <div class="desc-box"><p>Placeholder description for Community 1 visualization.</p></div>
+        <div class="desc-box"><p>Placeholder description for Community 2 visualization.</p></div>
+      </div>
+    </section>
+    <section id="sentiment" class="reveal">
+      <h2>Community Sentiment Analysis</h2>
+      <p>This visualization analyzes the sentiment of lyrics within the top 3 communities. On the left, a smoothed line plot tracks how the average sentiment has evolved over time for each community. On the right, the bar chart summarizes the average sentiment level per community. Communities are identified based on their collaboration patterns and reflect distinctive musical trends.</p>
+      <div style="display: flex; justify-content: center; margin-top: 2rem;">
+        <img src="web/assets/sentimenet.png" alt="Sentiment Analysis Plot" style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 16px rgba(0,0,0,0.1);">
+      </div>
+      <div class="desc-box" style="margin-top: 1.5rem;">
+        <p>Write something about community 0 having the lowest sentiment and being a rapper community</p>
       </div>
     </section>
   </main>
