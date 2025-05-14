@@ -7517,9 +7517,9 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="!!-BELOW-IS-AI-WRITTEN---READ-TROUGH-AND-MAKE-HUMAN-!!">!! BELOW IS AI WRITTEN - READ TROUGH AND MAKE HUMAN !!<a class="anchor-link" href="#!!-BELOW-IS-AI-WRITTEN---READ-TROUGH-AND-MAKE-HUMAN-!!">¶</a></h3><h2 id="Central-Idea">Central Idea<a class="anchor-link" href="#Central-Idea">¶</a></h2><h3 id="Research-Question">Research Question<a class="anchor-link" href="#Research-Question">¶</a></h3><p><strong>How are musical themes correlated with artist collaborations, and can we identify common thematic elements or trends emerging specifically from collaborative music pieces?</strong></p>
-<h3 id="Why-is-this-interesting?">Why is this interesting?<a class="anchor-link" href="#Why-is-this-interesting?">¶</a></h3><p>Collaborative songs often blend different musical styles, genres, or lyrical themes. By analyzing these collaborations systematically, we can uncover unique patterns and trends that may not be evident in songs created by solo artists.</p>
-<p>Collaboration frequently serves as a catalyst for creative innovation, enabling artists to experiment beyond their typical stylistic boundaries. It can facilitate the exchange of ideas, lead to genre-crossing hits, and introduce audiences to new combinations of sounds and lyrical narratives. Identifying how themes shift or persist in collaborative contexts may also provide valuable insights into cultural influences, artistic interactions, and audience reception to musical innovation.</p>
+<h2 id="Central-Idea">Central Idea<a class="anchor-link" href="#Central-Idea">¶</a></h2><h3 id="Research-Question">Research Question<a class="anchor-link" href="#Research-Question">¶</a></h3><p><strong>How are musical themes correlated with artist collaborations, and can we identify common thematic elements or trends emerging specifically from collaborative music pieces?</strong></p>
+<h3 id="Why-is-this-interesting?">Why is this interesting?<a class="anchor-link" href="#Why-is-this-interesting?">¶</a></h3><p>Collaborative songs often incorporate different musical styles, genres, or lyrical themes stemming from the habits or niches occupied by the individual contributors. By representing these collaborations as a network, we can uncover unique patterns and trends that may not be evident by simply looking through on a case-by-case basis.</p>
+<p>Collaboration frequently results in creative innovation stemming from the interaction of diverse groups, enabling artists to experiment beyond their typical stylistic boundaries. It can facilitate the exchange of ideas, lead to genre-crossing hits, and introduce audiences to new combinations of sounds and lyrical styles. Identifying how themes shift or persist in collaborative contexts may also provide valuable insights into cultural influences, artistic interactions, and audience reception to musical innovation.</p>
 <p>Additionally, examining thematic patterns specifically arising from artist collaborations can help illuminate broader trends within the music industry, such as increasing genre fluidity, the impact of artist networks on creativity, and how collaborations may influence chart success or artist visibility.</p>
 <p>In short, this project aims to bridge the gap between lyrical analysis and network analysis, highlighting how artistic collaborations contribute to evolving musical expression and innovation.</p>
 </div>
@@ -7557,6 +7557,71 @@ a.anchor-link {
 <li><code>is_collaboration</code> (Boolean flag)</li>
 </ul>
 <p>This combined dataset allows us to analyze both the <strong>network of artist collaborations</strong> and the <strong>thematic content of lyrics</strong>, forming the foundation for both our network and text analyses.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5ef1eab1">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Why-did-you-choose-it?">Why did you choose it?<a class="anchor-link" href="#Why-did-you-choose-it?">¶</a></h3><p>This dataset showed large amounts of promise for providing key insights into the inner workings of artistic culture and collaboration. Our group are all passionate about pop music and were excited for the opportunity to explore the motives and mechanisms of the musical ecosystem.</p>
+<h3 id="What-is-your-goal-for-the-end-user-experience?">What is your goal for the end-user experience?<a class="anchor-link" href="#What-is-your-goal-for-the-end-user-experience?">¶</a></h3><p>The website presents a viewpoint into sub-divisions between the top 50 artists in the english-speaking world right now. The ultimate aim is to educate the audience on the way in which sentiment varies between stylistic groups, showing where both like-minded individuals working together can result in something completely different, and how blending between different subgroups often ends up following the main artist's stylistic preference.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=46be99c8">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Preprocessing">Preprocessing<a class="anchor-link" href="#Preprocessing">¶</a></h3><p>The data was luckily provided in a very clean format by the API, which led to minimal preprocessing, mainly consissting of removing duplicate songs, and making sure all lyrics passed to the analysis page were only english lyrics.</p>
+<h3 id="Dataset-statistics">Dataset statistics<a class="anchor-link" href="#Dataset-statistics">¶</a></h3><p>The data, including network and lyrics added up to about 15MB, with the graph containing 418 unique artists representing the edges, and 696 unique collaborations. The average degree of the network came to 4.5, and was quite sparse, only having a density score of 0.008</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=b9182500">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Text-work-and-network-analysis">Text work and network analysis<a class="anchor-link" href="#Text-work-and-network-analysis">¶</a></h3><p>In terms of text, the source used were the lyrics in order to provide sentiment analysis to attribute to each composer, and provide a better understanding of the average sentiment of each community identified through the collaboration graph. Word clouds were created using TF-IDF, identifying unique words overrepresented in each communities song contents. From this it becomes clear that Community 0 is rap. After further sentiment analysis, using a pretrained model, the following observations were made:</p>
+<ul>
+<li><p>Community 0 consisted of mainly rap artists and word content. This group presented with more negative sentiment</p>
+</li>
+<li><p>Both Community 1 and 2 consisted of mainly pop artists and word content, however upon inspection of sentiment analysis, Community 1 appears to be more melancholic pop, while community 2 represents more happy and uplifting pop</p>
+</li>
+<li><p>From the sentiment-over-time analysis of each group, interestingly all groups followed similar oscillatory patterns, with highs existing around 2007 and 2015, and lows around 2010, 2020 (most likely due to covid), and again in 2024.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=336af01f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">¶</a></h3><h4 id="What-went-well">What went well<a class="anchor-link" href="#What-went-well">¶</a></h4><p>Overall, the network coupled with text analysis was very informative about the different cultures existing within popular music. It highlighted the tendency of artists to form "creative cliques" and how indicative these cliques were of the content and sentiment of each collaborators songs. Furthermore, the fluctuation of sentiment over time was extremely interesting, showing an accurate portrayal of recent significant worldwide phenomena.</p>
+<h4 id="Future-Improvements">Future Improvements<a class="anchor-link" href="#Future-Improvements">¶</a></h4><p>Given enough time, it would have been interesting to include more artists in the overall dataset, providing a more detailed and comprehensive perspective of differences in sentiment and word content between subgroups of artists within popular music. Furthermore, the incorporation of the sentiment data into the graph visualisation, potentially through colour coding or other means. Overall we were proud with the final product, and feel that it adequately illustrates the dedicated team of students behind the project.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=cc33e4dc">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
