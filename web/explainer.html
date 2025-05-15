@@ -7511,6 +7511,38 @@ a.anchor-link {
 <!-- End of mermaid configuration --></head>
 <body class="jp-Notebook" data-jp-theme-light="true" data-jp-theme-name="JupyterLab Light">
 <main>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=36da35cf">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 style="color:yellow;">Project Links</h3>
+<ul>
+<li><strong>Website:</strong> <a href="https://benyla.github.io/Final_Assignment_02467/?fbclid=IwY2xjawKTLkNleHRuA2FlbQIxMABicmlkETFlTVVLcENlUW00eXBkRkVuAR7dN0ln5uSLceqbRtBeUcwPPyXaZ6pJZjzQFaPgPLda1fCaD6ckC7ZmL1WMuQ_aem_o8x9D4XxpWmNfBKfa2tpcQ">LINK</a></li>
+<li><strong>GitHub:</strong> <a href="https://github.com/Benyla/Final_Assignment_02467">LINK</a></li>
+</ul>
+<h3 style="color:yellow;">Contributions</h3>
+<ul>
+<li><strong>Bertram</strong>: Data collection, data preprocessing, and website</li>
+<li><strong>Gardner</strong>: Network, network analysis, and lead on explainer notebook</li>
+<li><strong>Ingrid</strong>: Text (lyrics) analysis and visualisations</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=5e00631c">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<hr style="border: 2px solid red;"/>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e0825639">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
@@ -7522,6 +7554,17 @@ a.anchor-link {
 <p>Collaboration frequently results in creative innovation stemming from the interaction of diverse groups, enabling artists to experiment beyond their typical stylistic boundaries. It can facilitate the exchange of ideas, lead to genre-crossing hits, and introduce audiences to new combinations of sounds and lyrical styles. Identifying how themes shift or persist in collaborative contexts may also provide valuable insights into cultural influences, artistic interactions, and audience reception to musical innovation.</p>
 <p>Additionally, examining thematic patterns specifically arising from artist collaborations can help illuminate broader trends within the music industry, such as increasing genre fluidity, the impact of artist networks on creativity, and how collaborations may influence chart success or artist visibility.</p>
 <p>In short, this project aims to bridge the gap between lyrical analysis and network analysis, highlighting how artistic collaborations contribute to evolving musical expression and innovation.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=7295928f">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<hr style="border: 2px solid red;"/>
 </div>
 </div>
 </div>
@@ -7549,14 +7592,40 @@ a.anchor-link {
 </ul>
 <p>The final dataset is constructed by merging Spotify metadata with corresponding Genius lyrics, resulting in a structured dataset where each row represents a song. Key variables include:</p>
 <ul>
-<li><code>title</code></li>
+<li><code>primary_artist</code></li>
+<li><code>song_title</code></li>
 <li><code>artists</code></li>
 <li><code>release_date</code></li>
-<li><code>lyrics</code></li>
-<li><code>genres</code></li>
+<li><code>popularity</code></li>
 <li><code>is_collaboration</code> (Boolean flag)</li>
+<li><code>duration_seconds</code></li>
+<li><code>spotify_id</code></li>
+<li><code>lyrics</code></li>
 </ul>
 <p>This combined dataset allows us to analyze both the <strong>network of artist collaborations</strong> and the <strong>thematic content of lyrics</strong>, forming the foundation for both our network and text analyses.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ca28e2d9">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Preprocessing">Preprocessing<a class="anchor-link" href="#Preprocessing">¶</a></h3><p>The data from the Spotify API was fortunately provided in a very clean format, requiring minimal preprocessing. However, the lyrics obtained from the Genius API needed significant cleaning. We primarily removed the initial section of the returned lyrics, which contained contributor information and other metadata. Additionally, the lyrics included \n characters to indicate new lines, which we removed. We also eliminated annotations indicating which artist sang specific parts of the song, in cases where the track was a collaboration between multiple artists.</p>
+<h3 id="Dataset-statistics">Dataset statistics<a class="anchor-link" href="#Dataset-statistics">¶</a></h3><p>The data added up to about 10MB. The network contains 418 unique artists representing the nodes, and 696 unique collaborations. The average degree of the network came to 4.5, and was quite sparse, only having a density score of 0.008</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=6ef12c92">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<hr style="border: 2px solid red;"/>
 </div>
 </div>
 </div>
@@ -7573,14 +7642,13 @@ a.anchor-link {
 </div>
 </div>
 </div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=46be99c8">
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=e09487e6">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Preprocessing">Preprocessing<a class="anchor-link" href="#Preprocessing">¶</a></h3><p>The data was luckily provided in a very clean format by the API, which led to minimal preprocessing, mainly consissting of removing duplicate songs, and making sure all lyrics passed to the analysis page were only english lyrics.</p>
-<h3 id="Dataset-statistics">Dataset statistics<a class="anchor-link" href="#Dataset-statistics">¶</a></h3><p>The data, including network and lyrics added up to about 15MB, with the graph containing 418 unique artists representing the edges, and 696 unique collaborations. The average degree of the network came to 4.5, and was quite sparse, only having a density score of 0.008</p>
+<hr style="border: 2px solid red;"/>
 </div>
 </div>
 </div>
@@ -7604,14 +7672,36 @@ a.anchor-link {
 </div>
 </div>
 </div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=22722e2d">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<hr style="border: 2px solid red;"/>
+</div>
+</div>
+</div>
+</div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=336af01f">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">¶</a></h3><h4 id="What-went-well">What went well<a class="anchor-link" href="#What-went-well">¶</a></h4><p>Overall, the network coupled with text analysis was very informative about the different cultures existing within popular music. It highlighted the tendency of artists to form "creative cliques" and how indicative these cliques were of the content and sentiment of each collaborators songs. Furthermore, the fluctuation of sentiment over time was extremely interesting, showing an accurate portrayal of recent significant worldwide phenomena.</p>
-<h4 id="Future-Improvements">Future Improvements<a class="anchor-link" href="#Future-Improvements">¶</a></h4><p>Given enough time, it would have been interesting to include more artists in the overall dataset, providing a more detailed and comprehensive perspective of differences in sentiment and word content between subgroups of artists within popular music. Furthermore, the incorporation of the sentiment data into the graph visualisation, potentially through colour coding or other means. Overall we were proud with the final product, and feel that it adequately illustrates the dedicated team of students behind the project.</p>
+<h2 id="Discussion">Discussion<a class="anchor-link" href="#Discussion">¶</a></h2><h3 id="What-went-well">What went well<a class="anchor-link" href="#What-went-well">¶</a></h3><p>Overall, the network coupled with text analysis was very informative about the different cultures existing within popular music. It highlighted the tendency of artists to form "creative cliques" and how indicative these cliques were of the content and sentiment of each collaborators songs. Furthermore, the fluctuation of sentiment over time was extremely interesting, showing an accurate portrayal of recent significant worldwide phenomena.</p>
+<h3 id="Future-Improvements">Future Improvements<a class="anchor-link" href="#Future-Improvements">¶</a></h3><p>Given enough time, it would have been interesting to include more artists in the overall dataset, providing a more detailed and comprehensive perspective of differences in sentiment and word content between subgroups of artists within popular music. Furthermore, the incorporation of the sentiment data into the graph visualisation, potentially through colour coding or other means. We could have further taken advantage of the metadata that indicated which artist sang which parts of a track, in the case of a collaboration. This would likely have led to more precise sentiment analysis, as the current implementation assigns the overall sentiment of the entire song to all contributors, regardless of which parts they performed. Overall we were proud with the final product, and feel that it adequately illustrates the dedicated team of students behind the project.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ba9d5539">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<hr style="border: 2px solid red;"/>
 </div>
 </div>
 </div>
